@@ -1,0 +1,23 @@
+#!/usr/bin/env stap
+#
+# display the top 10 syscalls called in last 5 seconds
+#
+global syscalls
+function print_top () {
+        cnt=0
+        log ("SYSCALL\t\t\t\tCOUNT")
+        foreach ([name] in syscalls-) {
+                printf("%-20s\t\t%5d\n",name, syscalls[name])
+                if (cnt++ == 10)
+                        break
+        }
+        printf("--------------------------------------\n")
+        delete syscalls
+}
+probe syscall.* {
+        syscalls[probefunc()]++
+}
+probe timer.ms(5000) {
+        print_top ()
+}
+

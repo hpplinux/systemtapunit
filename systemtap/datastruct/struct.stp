@@ -1,0 +1,4 @@
+probe process("./test").statement("main@./test.c:20")
+{
+	printf("policy name:%s\n",$p->name->data);
+}

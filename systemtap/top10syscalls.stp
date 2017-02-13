@@ -1,0 +1,27 @@
+#http://www.oschina.net/question/12_7608
+#
+
+global syscalls
+
+function print_top(){
+    cnt=0
+    log("SYSCALL COUNT")	
+    foreach([name] in syscalls-){
+	printf("%-20s\t\t%5d\n",name,syscalls[name])
+	if(cnt++==10)
+	    break
+    }
+    printf("-------------------------------\n")
+    delete syscalls
+}
+
+probe syscall.*{
+    syscalls[probefunc()]++
+}
+
+probe timer.ms(5000){
+    print_top()
+}
+
+
+

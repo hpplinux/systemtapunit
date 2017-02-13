@@ -1,0 +1,88 @@
+# code for deregister_tm_clones
+b *0x0000000000400470
+commands
+silent
+bt 1
+c
+end
+
+# code for register_tm_clones
+b *0x00000000004004a0
+commands
+silent
+bt 1
+c
+end
+
+# code for __do_global_dtors_aux
+b *0x00000000004004e0
+commands
+silent
+bt 1
+c
+end
+
+# code for frame_dummy
+b *0x0000000000400500
+commands
+silent
+bt 1
+c
+end
+
+# code for __libc_csu_fini
+b *0x00000000004005e0
+commands
+silent
+bt 1
+c
+end
+
+# code for _fini
+b *0x00000000004005e4
+commands
+silent
+bt 1
+c
+end
+
+# code for __libc_csu_init
+b *0x0000000000400570
+commands
+silent
+bt 1
+c
+end
+
+# code for _start
+b *0x0000000000400440
+commands
+silent
+bt 1
+c
+end
+
+# code for main
+b *0x0000000000400542
+commands
+silent
+bt 1
+c
+end
+
+# code for triple
+b *0x0000000000400530
+commands
+silent
+bt 1
+c
+end
+
+# code for _init
+b *0x00000000004003e0
+commands
+silent
+bt 1
+c
+end
+

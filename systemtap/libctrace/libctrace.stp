@@ -1,0 +1,16 @@
+##
+#http://blog.yufeng.info/archives/2033
+#
+#
+
+probe process("/usr/lib64/libc.so.6").function("malloc") {
+	if (target()== pid()) {
+		print_ubacktrace();
+		exit();
+	}
+}
+probe begin {
+	println("~");
+}
+
+

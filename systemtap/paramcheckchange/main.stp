@@ -1,0 +1,17 @@
+#http://blog.csdn.net/justlinux2010/article/details/11392959
+#stap -gu -c ./a.out main.stp
+
+probe process("./xm").statement("func@test.c+5"){
+    printf("func1: %s \n",$$vars);
+    printf("-----1------------------------\n\n"); 
+    $fd=100
+}
+
+probe process("xm").statement("func2"){
+    printf("edi=%d\n",register("edi"));
+#printf("%s  --> %s\n",thread_indent(1),probefunc())
+}
+
+
+
+

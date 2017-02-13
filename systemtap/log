@@ -1,0 +1,2116 @@
+execve("/usr/bin/stap", ["stap", "whotouchmyfile.stp"], [/* 23 vars */]) = 0
+brk(NULL)                               = 0xe4e000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b547000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=88266, ...}) = 0
+mmap(NULL, 88266, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f056b531000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libdw.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\224\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=298472, ...}) = 0
+mmap(NULL, 2394216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056b0db000
+mprotect(0x7f056b122000, 2093056, PROT_NONE) = 0
+mmap(0x7f056b321000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x46000) = 0x7f056b321000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libelf.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`.\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=96824, ...}) = 0
+mmap(NULL, 2191744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056aec3000
+mprotect(0x7f056aeda000, 2093056, PROT_NONE) = 0
+mmap(0x7f056b0d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f056b0d9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsqlite3.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\260\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=870240, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b530000
+mmap(NULL, 2967256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056abee000
+mprotect(0x7f056acbd000, 2097152, PROT_NONE) = 0
+mmap(0x7f056aebd000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xcf000) = 0x7f056aebd000
+mmap(0x7f056aec2000, 1752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f056aec2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138744, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056a9d1000
+mprotect(0x7f056a9e9000, 2093056, PROT_NONE) = 0
+mmap(0x7f056abe8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f056abe8000
+mmap(0x7f056abea000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f056abea000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libavahi-common.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@/\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47952, ...}) = 0
+mmap(NULL, 2143216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056a7c5000
+mprotect(0x7f056a7d0000, 2093056, PROT_NONE) = 0
+mmap(0x7f056a9cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f056a9cf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libavahi-client.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\2206\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=68512, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b52f000
+mmap(NULL, 2163576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056a5b4000
+mprotect(0x7f056a5c4000, 2093056, PROT_NONE) = 0
+mmap(0x7f056a7c3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f056a7c3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libnss3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320e\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1330424, ...}) = 0
+mmap(NULL, 3431432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056a26e000
+mprotect(0x7f056a3ac000, 2097152, PROT_NONE) = 0
+mmap(0x7f056a5ac000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x13e000) = 0x7f056a5ac000
+mmap(0x7f056a5b3000, 3080, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f056a5b3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libsmime3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\216\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=180560, ...}) = 0
+mmap(NULL, 2275752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056a042000
+mprotect(0x7f056a06a000, 2097152, PROT_NONE) = 0
+mmap(0x7f056a26a000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x28000) = 0x7f056a26a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libssl3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\277\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=352832, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b52e000
+mmap(NULL, 2450568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0569deb000
+mprotect(0x7f0569e3d000, 2097152, PROT_NONE) = 0
+mmap(0x7f056a03d000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x52000) = 0x7f056a03d000
+mmap(0x7f056a041000, 1160, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f056a041000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libnspr4.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \266\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=247704, ...}) = 0
+mmap(NULL, 2353376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0569bac000
+mprotect(0x7f0569be6000, 2097152, PROT_NONE) = 0
+mmap(0x7f0569de6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3a000) = 0x7f0569de6000
+mmap(0x7f0569de8000, 10464, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0569de8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056982a000
+mprotect(0x7f056999c000, 2097152, PROT_NONE) = 0
+mmap(0x7f0569b9c000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f0569b9c000
+mmap(0x7f0569ba8000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0569ba8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b52d000
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0569521000
+mprotect(0x7f0569629000, 2093056, PROT_NONE) = 0
+mmap(0x7f0569828000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f0569828000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056930b000
+mprotect(0x7f0569321000, 2093056, PROT_NONE) = 0
+mmap(0x7f0569520000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f0569520000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1864888, ...}) = 0
+mmap(NULL, 3967488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0568f42000
+mprotect(0x7f0569102000, 2093056, PROT_NONE) = 0
+mmap(0x7f0569301000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bf000) = 0x7f0569301000
+mmap(0x7f0569307000, 14848, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0569307000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elfutils/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elfutils/tls/x86_64", 0x7ffc2c814ec0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/elfutils/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elfutils/tls", 0x7ffc2c814ec0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/elfutils/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elfutils/x86_64", 0x7ffc2c814ec0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/elfutils/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/elfutils", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b52c000
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0568d3e000
+mprotect(0x7f0568d41000, 2093056, PROT_NONE) = 0
+mmap(0x7f0568f40000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0568f40000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elfutils/libz.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\35\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=104824, ...}) = 0
+mmap(NULL, 2199880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0568b24000
+mprotect(0x7f0568b3d000, 2093056, PROT_NONE) = 0
+mmap(0x7f0568d3c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f0568d3c000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elfutils/liblzma.so.5", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320 \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=137400, ...}) = 0
+mmap(NULL, 2232456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0568902000
+mprotect(0x7f0568923000, 2093056, PROT_NONE) = 0
+mmap(0x7f0568b22000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f0568b22000
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/elfutils/libbz2.so.1.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libbz2.so.1.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=66800, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b52b000
+mmap(NULL, 2161928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05686f2000
+mprotect(0x7f0568701000, 2093056, PROT_NONE) = 0
+mmap(0x7f0568900000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7f0568900000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\244\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=309392, ...}) = 0
+mmap(NULL, 2405040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05684a6000
+mprotect(0x7f05684f0000, 2097152, PROT_NONE) = 0
+mmap(0x7f05686f0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4a000) = 0x7f05686f0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libnssutil3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\265\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=183048, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b52a000
+mmap(NULL, 2279576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0568279000
+mprotect(0x7f056829f000, 2097152, PROT_NONE) = 0
+mmap(0x7f056849f000, 28672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x26000) = 0x7f056849f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libplc4.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18712, ...}) = 0
+mmap(NULL, 2113904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0568074000
+mprotect(0x7f0568078000, 2093056, PROT_NONE) = 0
+mmap(0x7f0568277000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f0568277000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libplds4.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\17\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14552, ...}) = 0
+mmap(NULL, 2109776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0567e70000
+mprotect(0x7f0567e73000, 2093056, PROT_NONE) = 0
+mmap(0x7f0568072000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0568072000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b529000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31712, ...}) = 0
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0567c68000
+mprotect(0x7f0567c6f000, 2093056, PROT_NONE) = 0
+mmap(0x7f0567e6e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f0567e6e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=536520, ...}) = 0
+mmap(NULL, 540800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f056b4a4000
+mmap(0x7f056b524000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7f000) = 0x7f056b524000
+mmap(0x7f056b528000, 128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f056b528000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260Z\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=130224, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b4a3000
+mmap(NULL, 2234080, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0567a46000
+mprotect(0x7f0567a65000, 2093056, PROT_NONE) = 0
+mmap(0x7f0567c64000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e000) = 0x7f0567c64000
+mmap(0x7f0567c66000, 5856, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0567c66000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\215\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=919168, ...}) = 0
+mmap(NULL, 3015360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0567765000
+mprotect(0x7f056783d000, 2093056, PROT_NONE) = 0
+mmap(0x7f0567a3c000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd7000) = 0x7f0567a3c000
+mmap(0x7f0567a45000, 704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0567a45000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=456632, ...}) = 0
+mmap(NULL, 2552072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05674f5000
+mprotect(0x7f0567563000, 2097152, PROT_NONE) = 0
+mmap(0x7f0567763000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6e000) = 0x7f0567763000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=80496, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b4a2000
+mmap(NULL, 2175544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f05672e1000
+mprotect(0x7f05672f3000, 2097152, PROT_NONE) = 0
+mmap(0x7f05674f3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x12000) = 0x7f05674f3000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b4a1000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b4a0000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b49f000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b49e000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b49c000
+arch_prctl(ARCH_SET_FS, 0x7f056b49c8c0) = 0
+mprotect(0x7f0569301000, 16384, PROT_READ) = 0
+mprotect(0x7f05674f3000, 4096, PROT_READ) = 0
+mprotect(0x7f056abe8000, 4096, PROT_READ) = 0
+mprotect(0x7f0567763000, 4096, PROT_READ) = 0
+mprotect(0x7f0567a3c000, 4096, PROT_READ) = 0
+mprotect(0x7f0568f40000, 4096, PROT_READ) = 0
+mprotect(0x7f0567c64000, 4096, PROT_READ) = 0
+mprotect(0x7f0568b22000, 4096, PROT_READ) = 0
+mprotect(0x7f0567e6e000, 4096, PROT_READ) = 0
+mprotect(0x7f056b524000, 12288, PROT_READ) = 0
+mprotect(0x7f0569de6000, 4096, PROT_READ) = 0
+mprotect(0x7f0568072000, 4096, PROT_READ) = 0
+mprotect(0x7f0568277000, 4096, PROT_READ) = 0
+mprotect(0x7f056849f000, 24576, PROT_READ) = 0
+mprotect(0x7f05686f0000, 4096, PROT_READ) = 0
+mprotect(0x7f0568900000, 4096, PROT_READ) = 0
+mprotect(0x7f0568d3c000, 4096, PROT_READ) = 0
+mprotect(0x7f0569828000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b49b000
+mprotect(0x7f0569b9c000, 40960, PROT_READ) = 0
+mprotect(0x7f056a5ac000, 20480, PROT_READ) = 0
+mprotect(0x7f056a03d000, 12288, PROT_READ) = 0
+mprotect(0x7f056a26a000, 12288, PROT_READ) = 0
+mprotect(0x7f056a9cf000, 4096, PROT_READ) = 0
+mprotect(0x7f056a7c3000, 4096, PROT_READ) = 0
+mprotect(0x7f056aebd000, 12288, PROT_READ) = 0
+mprotect(0x7f056b0d9000, 4096, PROT_READ) = 0
+mprotect(0x7f056b321000, 8192, PROT_READ) = 0
+mprotect(0x88d000, 4096, PROT_READ)     = 0
+mprotect(0x7f056b549000, 4096, PROT_READ) = 0
+munmap(0x7f056b531000, 88266)           = 0
+set_tid_address(0x7f056b49cb90)         = 1531
+set_robust_list(0x7f056b49cba0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f056a9d6b90, [], SA_RESTORER|SA_SIGINFO, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f056a9d6c20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0xe4e000
+brk(0xe6f000)                           = 0xe6f000
+statfs("/sys/fs/selinux", 0x7ffc2c815ab0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7ffc2c815ab0)      = -1 ENOENT (No such file or directory)
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 344
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+futex(0x7f0569ba91ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0569ba91b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+access("/usr/bin/abrt-action-install-debuginfo-to-abrt-cache", X_OK) = -1 ENOENT (No such file or directory)
+access("/usr/libexec/abrt-action-install-debuginfo-to-abrt-cache", X_OK) = -1 ENOENT (No such file or directory)
+uname({sysname="Linux", nodename="bob-VirtualBox", ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/home/bob/.systemtap", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/bob/.systemtap/cache", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+mkdir("/tmp/stapHepULF", 0700)          = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10219008, ...}) = 0
+mmap(NULL, 10219008, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0566922000
+close(3)                                = 0
+rt_sigaction(SIGHUP, {0x411f10, [HUP INT PIPE TERM XCPU XFSZ], SA_RESTORER|SA_RESTART, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {0x411f10, [HUP INT PIPE TERM XCPU XFSZ], SA_RESTORER|SA_RESTART, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigaction(SIGINT, {0x411f10, [HUP INT PIPE TERM XCPU XFSZ], SA_RESTORER|SA_RESTART, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x411f10, [HUP INT PIPE TERM XCPU XFSZ], SA_RESTORER|SA_RESTART, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigaction(SIGXFSZ, {0x411f10, [HUP INT PIPE TERM XCPU XFSZ], SA_RESTORER|SA_RESTART, 0x7f056a9e23d0}, NULL, 8) = 0
+rt_sigaction(SIGXCPU, {0x411f10, [HUP INT PIPE TERM XCPU XFSZ], SA_RESTORER|SA_RESTART, 0x7f056a9e23d0}, NULL, 8) = 0
+open("/home/bob/.systemtap/rc", O_RDONLY) = -1 ENOENT (No such file or directory)
+getuid()                                = 0
+open("/sys/module/module/parameters/sig_enforce", O_RDONLY) = 3
+open("/sys/kernel/security/securelevel", O_RDONLY) = -1 ENOENT (No such file or directory)
+read(3, "N\n", 8191)                    = 2
+close(3)                                = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f056b540000
+close(3)                                = 0
+futex(0x7f05693068c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+stat("/lib/modules/4.4.0-34-generic/build/.config", {st_mode=S_IFREG|0644, st_size=189563, ...}) = 0
+open("/lib/modules/4.4.0-34-generic/build/.config", O_RDONLY) = 3
+read(3, "#\n# Automatically generated file"..., 8191) = 8191
+brk(0xe90000)                           = 0xe90000
+read(3, "ONFIG_MODVERSIONS=y\nCONFIG_MODUL"..., 8191) = 8191
+read(3, "ACPI_EC_DEBUGFS=m\nCONFIG_ACPI_AC"..., 8191) = 8191
+read(3, "NF_TABLES_NETDEV=m\nCONFIG_NFT_EX"..., 8191) = 8191
+read(3, "IG_LAPB=m\nCONFIG_PHONET=m\nCONFIG"..., 8191) = 8191
+brk(0xeb1000)                           = 0xeb1000
+read(3, "=y\n# CONFIG_STANDALONE is not se"..., 8191) = 8191
+read(3, "MP=y\nCONFIG_SCSI_SRP_ATTRS=m\nCON"..., 8191) = 8191
+read(3, "not set\n\n#\n# Distributed Switch "..., 8191) = 8191
+brk(0xed2000)                           = 0xed2000
+read(3, "LL=y\nCONFIG_ATH9K_CHANNEL_CONTEX"..., 8191) = 8191
+read(3, "#\nCONFIG_INPUT_MOUSEDEV=y\nCONFIG"..., 8191) = 8191
+read(3, "RIAL_8250_FSL is not set\nCONFIG_"..., 8191) = 8191
+brk(0xef3000)                           = 0xef3000
+read(3, "NFIG_CHARGER_BQ2415X=m\nCONFIG_CH"..., 8191) = 8191
+read(3, "MFD_MENF21BMC=m\nCONFIG_EZX_PCAP="..., 8191) = 8191
+read(3, "\nCONFIG_DVB_USB_GL861=m\nCONFIG_D"..., 8191) = 8191
+brk(0xf14000)                           = 0xf14000
+read(3, "ONFIG_DVB_LG2160=m\nCONFIG_DVB_S5"..., 8191) = 8191
+read(3, "AYLA20=m\nCONFIG_SND_DARLA24=m\nCO"..., 8191) = 8191
+read(3, "\n# CONFIG_USB_OTG is not set\n# C"..., 8191) = 8191
+brk(0xf35000)                           = 0xf35000
+read(3, " Drivers\n#\nCONFIG_MMC_SDHCI=m\nCO"..., 8191) = 8191
+read(3, "MEDI_MISC_DRIVERS=y\nCONFIG_COMED"..., 8191) = 8191
+read(3, "_WIRELESS=m\nCONFIG_HP_WMI=m\nCONF"..., 8191) = 8191
+brk(0xf56000)                           = 0xf56000
+read(3, "IG_BLK_DEV_PMEM=m\nCONFIG_ND_BLK="..., 8191) = 8191
+read(3, "NFIG_AFS_DEBUG is not set\nCONFIG"..., 8191) = 8191
+read(3, "X86_DEBUG_FPU=y\nCONFIG_PUNIT_ATO"..., 8191) = 8191
+read(3, "PC=y\nCONFIG_XZ_DEC_IA64=y\nCONFIG"..., 8191) = 1170
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/lib/modules/4.4.0-34-generic/build/Module.symvers", {st_mode=S_IFREG|0644, st_size=1241623, ...}) = 0
+open("/lib/modules/4.4.0-34-generic/build/Module.symvers", O_RDONLY) = 3
+read(3, "0xa29c8aeb\tsnd_hdac_ext_bus_pars"..., 8191) = 8191
+read(3, "ck_no_mmap\tvmlinux\tEXPORT_SYMBOL"..., 8191) = 8191
+read(3, "w_event_handle\tdrivers/media/rc/"..., 8191) = 8191
+read(3, "BOL\n0xf88e0ee2\tacpi_get_table_he"..., 8191) = 8191
+brk(0xf77000)                           = 0xf77000
+brk(0xf76000)                           = 0xf76000
+read(3, "niband/core/ib_core\tEXPORT_SYMBO"..., 8191) = 8191
+read(3, "XPORT_SYMBOL\n0x194150c1\tgigaset_"..., 8191) = 8191
+read(3, "69af9\tsock_rfree\tvmlinux\tEXPORT_"..., 8191) = 8191
+read(3, "EXPORT_SYMBOL_GPL\n0xa316236e\tdrm"..., 8191) = 8191
+read(3, "_probe\tvmlinux\tEXPORT_SYMBOL_GPL"..., 8191) = 8191
+read(3, "BOL\n0xb9f5be69\tsnd_pcm_hw_constr"..., 8191) = 8191
+read(3, "XPORT_SYMBOL_GPL\n0xe119bcf0\tib_d"..., 8191) = 8191
+read(3, "33b16e\tbt_procfs_init\tnet/blueto"..., 8191) = 8191
+read(3, "9ca3e8\tkm_new_mapping\tvmlinux\tEX"..., 8191) = 8191
+read(3, "e\tdrivers/net/wireless/ath/ath9k"..., 8191) = 8191
+read(3, "sr_safe_regs\tvmlinux\tEXPORT_SYMB"..., 8191) = 8191
+read(3, "x2f0b5d43\tdca3_get_tag\tdrivers/d"..., 8191) = 8191
+read(3, "cleanup\tsound/hda/snd-hda-core\tE"..., 8191) = 8191
+read(3, "g/fbtft/fbtft\tEXPORT_SYMBOL\n0x03"..., 8191) = 8191
+read(3, "elay\tdrivers/gpu/drm/drm\tEXPORT_"..., 8191) = 8191
+read(3, "RT_SYMBOL_GPL\n0x8b43159b\tregiste"..., 8191) = 8191
+read(3, "XPORT_SYMBOL\n0x150caf45\ttcp_md5_"..., 8191) = 8191
+read(3, "drivers/scsi/libfc/libfc\tEXPORT_"..., 8191) = 8191
+read(3, "XPORT_SYMBOL\n0xaf551205\tiscsit_f"..., 8191) = 8191
+read(3, "gacy/iwlegacy\tEXPORT_SYMBOL\n0xa8"..., 8191) = 8191
+read(3, "cy/iwlegacy\tEXPORT_SYMBOL\n0xefa7"..., 8191) = 8191
+brk(0xf97000)                           = 0xf97000
+brk(0xf96000)                           = 0xf96000
+read(3, "GPL\n0x9fdd2e4c\tcache_destroy_net"..., 8191) = 8191
+read(3, "g_init\tdrivers/gpu/drm/drm\tEXPOR"..., 8191) = 8191
+read(3, "ch/x86/kvm/kvm\tEXPORT_SYMBOL_GPL"..., 8191) = 8191
+read(3, "anes\tdrivers/gpu/drm/drm_kms_hel"..., 8191) = 8191
+read(3, "o2nm_this_node\tfs/ocfs2/cluster/"..., 8191) = 8191
+read(3, "inux\tEXPORT_SYMBOL\n0x66adc464\tsn"..., 8191) = 8191
+read(3, "dsp_ipc_msg_tx\tsound/soc/intel/c"..., 8191) = 8191
+read(3, "\n0x20e9e1ee\tacpi_subsys_runtime_"..., 8191) = 8191
+read(3, "d-ak4114\tEXPORT_SYMBOL\n0xe719c7d"..., 8191) = 8191
+read(3, "nit\tdrivers/net/wireless/ath/ath"..., 8191) = 8191
+read(3, "PORT_SYMBOL_GPL\n0x5599c027\tsnd_s"..., 8191) = 8191
+read(3, "wireless/ath/ath10k/ath10k_core\t"..., 8191) = 8191
+read(3, "L\n0xb05fb6a2\tuart_get_baud_rate\t"..., 8191) = 8191
+read(3, "bcxgbi\tEXPORT_SYMBOL_GPL\n0xb6b68"..., 8191) = 8191
+read(3, "re_mod\tEXPORT_SYMBOL\n0xe36d082d\t"..., 8191) = 8191
+read(3, "ORT_SYMBOL\n0x01e45abc\tinsert_ino"..., 8191) = 8191
+read(3, "EXPORT_SYMBOL_GPL\n0xd89f56bc\tpcc"..., 8191) = 8191
+read(3, "T_SYMBOL\n0x0e7d6170\tdrm_add_mode"..., 8191) = 8191
+read(3, "_GPL\n0x2632a013\tVBoxGuest_RTLogR"..., 8191) = 8191
+read(3, "RT_SYMBOL\n0xe8dd0278\tmei_fw_stat"..., 8191) = 8191
+read(3, "\ttcf_em_tree_destroy\tvmlinux\tEXP"..., 8191) = 8191
+read(3, "bus_update_rirb\tsound/hda/snd-hd"..., 8191) = 8191
+read(3, "pci/cx88/cx88xx\tEXPORT_SYMBOL\n0x"..., 8191) = 8191
+brk(0xfb7000)                           = 0xfb7000
+brk(0xfb6000)                           = 0xfb6000
+read(3, "xcc85fcb6\tasync_schedule\tvmlinux"..., 8191) = 8191
+read(3, "YMBOL\n0x9d92b653\tpage_cache_prev"..., 8191) = 8191
+read(3, "tchdog_schedule_ns\tvmlinux\tEXPOR"..., 8191) = 8191
+read(3, "sd\tEXPORT_SYMBOL\n0x861dd37f\tmtd_"..., 8191) = 8191
+read(3, "led_regmap\tvmlinux\tEXPORT_SYMBOL"..., 8191) = 8191
+read(3, "altek/rtlwifi/rtlwifi\tEXPORT_SYM"..., 8191) = 8191
+read(3, "rivers/target/target_core_mod\tEX"..., 8191) = 8191
+read(3, "08\tnfc_hci_disconnect_gate\tnet/n"..., 8191) = 8191
+read(3, "_object_free\tdrivers/gpu/drm/drm"..., 8191) = 8191
+read(3, "i_labpc_isadma\tEXPORT_SYMBOL_GPL"..., 8191) = 8191
+read(3, "nux\tEXPORT_SYMBOL\n0x638929aa\tdri"..., 8191) = 8191
+read(3, "T_SYMBOL\n0x7a0ef552\tlwtunnel_cmp"..., 8191) = 8191
+read(3, "MBOL\n0x1f8db7f9\tring_buffer_over"..., 8191) = 8191
+read(3, "mlinux\tEXPORT_SYMBOL\n0x079b132d\t"..., 8191) = 8191
+read(3, "7\tinet_csk_addr2sockaddr\tvmlinux"..., 8191) = 8191
+read(3, "YMBOL_GPL\n0x50eecc78\tblk_trace_s"..., 8191) = 8191
+read(3, "m_set_bdaddr\tdrivers/bluetooth/b"..., 8191) = 8191
+read(3, "nux\tEXPORT_SYMBOL\n0x462c3691\tpin"..., 8191) = 8191
+read(3, "e8fbc\tbcm_phy_config_intr\tdriver"..., 8191) = 8191
+read(3, "4158e5\tceph_osdc_put_request\tnet"..., 8191) = 8191
+read(3, "e\tinet_sendpage\tvmlinux\tEXPORT_S"..., 8191) = 8191
+brk(0xfd7000)                           = 0xfd7000
+brk(0xfd6000)                           = 0xfd6000
+read(3, "-sst-core\tEXPORT_SYMBOL_GPL\n0x35"..., 8191) = 8191
+read(3, "\n0xb4a863ca\treservation_object_g"..., 8191) = 8191
+read(3, "11\ttty_port_lower_dtr_rts\tvmlinu"..., 8191) = 8191
+read(3, "GPL\n0x017ea7c7\tcx231xx_tuner_cal"..., 8191) = 8191
+read(3, "\n0x81fcd7c8\tkmem_cache_alloc_tra"..., 8191) = 8191
+read(3, "BOL_GPL\n0x44175c01\tnetif_tx_stop"..., 8191) = 8191
+read(3, "0xc968d301\tfat_free_clusters\tvml"..., 8191) = 8191
+read(3, "EXPORT_SYMBOL_GPL\n0x8f36b2cf\tefi"..., 8191) = 8191
+read(3, "XPORT_SYMBOL_GPL\n0xcef498c0\tsas_"..., 8191) = 8191
+read(3, "x/vboxguest/vboxguest\tEXPORT_SYM"..., 8191) = 8191
+read(3, "b_rsv_modify\tdrivers/uwb/uwb\tEXP"..., 8191) = 8191
+read(3, "cfg80211\tEXPORT_SYMBOL\n0xc2bb3c0"..., 8191) = 8191
+read(3, "_SYMBOL\n0xb0b4d158\tsecurity_skb_"..., 8191) = 8191
+read(3, "c-generic\tEXPORT_SYMBOL_GPL\n0xed"..., 8191) = 8191
+read(3, "ORT_SYMBOL_GPL\n0x60db08e7\tgnet_s"..., 8191) = 8191
+read(3, "8e1060\tcros_ec_cmd_xfer\tvmlinux\t"..., 8191) = 8191
+read(3, "l2-core/videobuf2-v4l2\tEXPORT_SY"..., 8191) = 8191
+read(3, "\n0x25d2fee1\tvfs_readv\tvmlinux\tEX"..., 8191) = 8191
+read(3, "/iscsi/iscsi_target_mod\tEXPORT_S"..., 8191) = 8191
+read(3, "\tnat_h245_hook\tnet/netfilter/nf_"..., 8191) = 8191
+read(3, "_dev_fop_write\tdrivers/media/rc/"..., 8191) = 8191
+brk(0xff7000)                           = 0xff7000
+brk(0xff6000)                           = 0xff6000
+read(3, "orage\tEXPORT_SYMBOL_GPL\n0xf8f04f"..., 8191) = 8191
+read(3, "wl6040_get_pll\tvmlinux\tEXPORT_SY"..., 8191) = 8191
+read(3, "p/9pnet\tEXPORT_SYMBOL\n0x6085edbd"..., 8191) = 8191
+read(3, "2\tcx88_set_freq\tdrivers/media/pc"..., 8191) = 8191
+read(3, "inux\tEXPORT_SYMBOL\n0x13e2cdc7\tmn"..., 8191) = 8191
+read(3, "84ec1e\tcx2341x_ctrl_get_menu\tdri"..., 8191) = 8191
+read(3, "d9cac83b\twm8998_i2c_regmap\tvmlin"..., 8191) = 8191
+read(3, "6acd84\ti2c_smbus_write_byte_data"..., 8191) = 8191
+read(3, "s/tuner-types\tEXPORT_SYMBOL\n0x40"..., 8191) = 8191
+read(3, "\n0x836d3135\tsnd_ak4113_reg_write"..., 8191) = 8191
+read(3, "rm_kms_helper\tEXPORT_SYMBOL\n0x9c"..., 8191) = 8191
+read(3, "PORT_SYMBOL\n0xd9cbf218\tib_send_c"..., 8191) = 8191
+read(3, "Int8Full\tubuntu/vbox/vboxguest/v"..., 8191) = 8191
+read(3, "isa/sb/snd-sb-common\tEXPORT_SYMB"..., 8191) = 8191
+read(3, "a0847\tdrm_mode_create_scaling_mo"..., 8191) = 8191
+read(3, "lobal_free\tdrivers/gpu/drm/ttm/t"..., 8191) = 8191
+read(3, "\tnetdev_refcnt_read\tvmlinux\tEXPO"..., 8191) = 8191
+read(3, "RT_SYMBOL\n0x3e2ec86c\tfw_iso_cont"..., 8191) = 8191
+read(3, "buffer_read_prepare\tvmlinux\tEXPO"..., 8191) = 8191
+read(3, "utopm_get_device\tvmlinux\tEXPORT_"..., 8191) = 8191
+read(3, "rrupts\tdrivers/crypto/qat/qat_co"..., 8191) = 8191
+brk(0x1017000)                          = 0x1017000
+brk(0x1016000)                          = 0x1016000
+read(3, "44e1da1e\tnf_register_net_hook\tvm"..., 8191) = 8191
+read(3, "SYMBOL_GPL\n0x74c34601\t__get_page"..., 8191) = 8191
+read(3, "ss/ath/ath9k/ath9k_common\tEXPORT"..., 8191) = 8191
+read(3, "ge_mtu\tdrivers/net/can/can-dev\tE"..., 8191) = 8191
+read(3, "pt\tvmlinux\tEXPORT_SYMBOL\n0x7dab2"..., 8191) = 8191
+read(3, "ORT_SYMBOL_GPL\n0xe3b4cea0\tdrm_at"..., 8191) = 8191
+read(3, "4_rx_irqsafe\tnet/mac802154/mac80"..., 8191) = 8191
+read(3, "BOL\n0x9c95eacd\tvp3054_i2c_probe\t"..., 8191) = 8191
+read(3, "ORT_SYMBOL\n0x27471f18\tdapm_mark_"..., 8191) = 8191
+read(3, "XPORT_SYMBOL\n0x8c0cad5a\tmlx4_unr"..., 8191) = 8191
+read(3, "BOL_GPL\n0xb26a8164\tgpiochip_free"..., 8191) = 8191
+read(3, "heater\tdrivers/iio/common/ms_sen"..., 8191) = 8191
+read(3, "T_SYMBOL\n0x5561f268\ttty_set_oper"..., 8191) = 8191
+read(3, "vmlinux\tEXPORT_SYMBOL_GPL\n0xb187"..., 8191) = 8191
+read(3, "_vme_attribute\tvmlinux\tEXPORT_SY"..., 8191) = 8191
+read(3, "core\tEXPORT_SYMBOL\n0x0b4c2404\tii"..., 8191) = 8191
+read(3, "che_init\tvmlinux\tEXPORT_SYMBOL\n0"..., 8191) = 8191
+read(3, "y\tdrivers/iio/common/ms_sensors/"..., 8191) = 8191
+read(3, "ommon2_sysfs_write\tdrivers/hid/h"..., 8191) = 8191
+read(3, "ireless/cfg80211\tEXPORT_SYMBOL\n0"..., 8191) = 8191
+read(3, "er_algs\tvmlinux\tEXPORT_SYMBOL_GP"..., 8191) = 8191
+read(3, "7849b1\tedac_device_handle_ue\tdri"..., 8191) = 8191
+brk(0x1037000)                          = 0x1037000
+brk(0x1036000)                          = 0x1036000
+read(3, "_SYMBOL_GPL\n0xb91d2591\twlcore_bo"..., 8191) = 8191
+read(3, "filter/nft_meta\tEXPORT_SYMBOL_GP"..., 8191) = 8191
+read(3, "SYMBOL\n0x49d8c445\tath9k_hw_set_t"..., 8191) = 8191
+read(3, "2_strsize\tvmlinux\tEXPORT_SYMBOL\n"..., 8191) = 8191
+read(3, "xpect_related_report\tnet/netfilt"..., 8191) = 8191
+read(3, "vers/infiniband/core/ib_core\tEXP"..., 8191) = 8191
+read(3, "anox/mlx5/core/mlx5_core\tEXPORT_"..., 8191) = 8191
+read(3, "_GPL\n0xb3bc5649\tvb2_dvb_dealloc_"..., 8191) = 8191
+read(3, "_fini\tvmlinux\tEXPORT_SYMBOL_GPL\n"..., 8191) = 8191
+read(3, "s/isl6423\tEXPORT_SYMBOL\n0x886452"..., 8191) = 8191
+read(3, "bb6\tcomedi_8254_cascade_ns_to_ti"..., 8191) = 8191
+read(3, "467\tsnd_pcm_lib_preallocate_page"..., 8191) = 8191
+read(3, "XPORT_SYMBOL_GPL\n0xa21807bc\tnf_l"..., 8191) = 8191
+read(3, "g/comedi/drivers/mite\tEXPORT_SYM"..., 8191) = 8191
+read(3, "OL_GPL\n0xb54d0d95\tfsg_fs_bulk_in"..., 8191) = 8191
+read(3, "\n0x6ab5cdab\tcxgbi_iscsi_cleanup\t"..., 8191) = 8191
+read(3, "se\tdrivers/media/v4l2-core/video"..., 8191) = 8191
+read(3, "all\tvmlinux\tEXPORT_SYMBOL\n0x23cf"..., 8191) = 8191
+read(3, "t_handler\tvmlinux\tEXPORT_SYMBOL\n"..., 8191) = 4782
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+open("/lib/modules/4.4.0-34-generic/build/System.map", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/boot/System.map-4.4.0-34-generic", O_RDONLY) = 3
+read(3, "0000000000000000 D __per_cpu_sta"..., 8191) = 8191
+read(3, "ci_cpu_cacheinfo\n000000000001268"..., 8191) = 8191
+read(3, "able_event\nffffffff81007980 t am"..., 8191) = 8191
+brk(0x1057000)                          = 0x1057000
+read(3, "f81011000 t cmask_show\nffffffff8"..., 8191) = 8191
+read(3, "0 t snbep_uncore_msr_init_box\nff"..., 8191) = 8191
+read(3, "ffffffff8101e0f0 t xen_exchange_"..., 8191) = 8191
+read(3, "put_xen_mmu_pgd\nffffffff810273f0"..., 8191) = 8191
+read(3, "rint_context_stack_bp\nffffffff81"..., 8191) = 8191
+read(3, "o_fxsr\nffffffff8103a970 T fpregs"..., 8191) = 8191
+read(3, "ffffff81046f00 T mce_gen_pool_in"..., 8191) = 8191
+brk(0x1078000)                          = 0x1078000
+read(3, "fffff81050470 T machine_emergenc"..., 8191) = 8191
+read(3, "setup_msi_irqs\nffffffff81058830 "..., 8191) = 8191
+read(3, "05fef0 T optprobe_template_entry"..., 8191) = 8191
+read(3, "4 T start_pv_irq_ops_save_fl\nfff"..., 8191) = 8191
+read(3, "e_attr_set_clr\nffffffff8106e6c0 "..., 8191) = 8191
+read(3, " crc_90\nffffffff81076d98 t crc_8"..., 8191) = 8191
+brk(0x1099000)                          = 0x1099000
+read(3, "8107db60 T get_mm_exe_file\nfffff"..., 8191) = 8191
+read(3, "ffffffff810890e0 T proc_dointvec"..., 8191) = 8191
+read(3, "ffffff81094060 T SyS_setregid\nff"..., 8191) = 8191
+read(3, "_data\nffffffff8109ed20 T __kerne"..., 8191) = 8191
+read(3, " T SyS_setgroups\nffffffff810a4a1"..., 8191) = 8191
+read(3, "\nffffffff810ae4e0 T SyS_sched_ge"..., 8191) = 8191
+brk(0x10ba000)                          = 0x10ba000
+read(3, " t prio_changed_rt\nffffffff810bf"..., 8191) = 8191
+read(3, "ffffff810cbae0 T rt_mutex_timed_"..., 8191) = 8191
+read(3, "ffff810d9e80 T console_device\nff"..., 8191) = 8191
+read(3, "proc_show\nffffffff810e1cf0 t irq"..., 8191) = 8191
+read(3, "val\nffffffff810eb130 T jiffies_t"..., 8191) = 8191
+read(3, "sleep_restart\nffffffff810f39d0 t"..., 8191) = 8191
+brk(0x10db000)                          = 0x10db000
+read(3, "roadcast_device\nffffffff810fd500"..., 8191) = 8191
+read(3, "a\nffffffff81106270 t frob_writab"..., 8191) = 8191
+read(3, "fffffff81111eb0 T compat_SyS_mov"..., 8191) = 8191
+read(3, "ure_bump\nffffffff8111de90 T proc"..., 8191) = 8191
+read(3, "ndler\nffffffff8112ce40 T kretpro"..., 8191) = 8191
+read(3, "f8113c240 T seccomp_phase1\nfffff"..., 8191) = 8191
+brk(0x10fc000)                          = 0x10fc000
+read(3, "nction_probe\nffffffff81145a70 T "..., 8191) = 8191
+read(3, "ff8114e910 t tracing_clock_write"..., 8191) = 8191
+read(3, "fffff81157e80 t wakeup_flag_chan"..., 8191) = 8191
+read(3, "00 t syscall_get_enter_fields\nff"..., 8191) = 8191
+read(3, "_event_pm_qos_request\nffffffff81"..., 8191) = 8191
+read(3, "fffffff81178ce0 T perf_unregiste"..., 8191) = 8191
+read(3, "ffffff81185740 t perf_mmap_alloc"..., 8191) = 8191
+brk(0x111d000)                          = 0x111d000
+read(3, "fdatawrite_range\nffffffff8118f0a"..., 8191) = 8191
+read(3, "\nffffffff8119d1c0 T pagevec_look"..., 8191) = 8191
+read(3, "811ac3e0 T kstrdup_const\nfffffff"..., 8191) = 8191
+read(3, "ort.isra.32\nffffffff811b5ea0 t i"..., 8191) = 8191
+read(3, "ed_area_topdown\nffffffff811c6850"..., 8191) = 8191
+read(3, "dd_swap_extent\nffffffff811d64a0 "..., 8191) = 8191
+brk(0x113e000)                          = 0x113e000
+read(3, " T compat_sys_mbind\nffffffff811e"..., 8191) = 8191
+read(3, "ffffffff811f0d30 T walk_memory_r"..., 8191) = 8191
+read(3, "0 T task_in_mem_cgroup\nffffffff8"..., 8191) = 8191
+read(3, "0 T SyS_truncate\nffffffff8120b14"..., 8191) = 8191
+read(3, "2130e0 T open_exec\nffffffff81213"..., 8191) = 8191
+read(3, "37a0 T d_find_any_alias\nffffffff"..., 8191) = 8191
+brk(0x115f000)                          = 0x115f000
+read(3, "_get_writers.isra.18\nffffffff812"..., 8191) = 8191
+read(3, "fffffff81236440 t trace_raw_outp"..., 8191) = 8191
+read(3, "fffffff81242d10 T mnt_pin_kill\nf"..., 8191) = 8191
+read(3, "c_mask\nffffffff81250fd0 T fsnoti"..., 8191) = 8191
+read(3, "io_submit\nffffffff8125e4d0 T SyS"..., 8191) = 8191
+read(3, "l_chmod\nffffffff8126ec70 T set_c"..., 8191) = 8191
+brk(0x1180000)                          = 0x1180000
+read(3, "t comm_show\nffffffff8127c8a0 t p"..., 8191) = 8191
+read(3, "fcorehdr_read\nffffffff81288460 W"..., 8191) = 8191
+read(3, "ffff81292a30 t ext4_end_io_unwri"..., 8191) = 8191
+read(3, "utput_ext4__mballoc\nffffffff812a"..., 8191) = 8191
+read(3, "\nffffffff812b2970 t trace_event_"..., 8191) = 8191
+read(3, "e.part.41\nffffffff812c5100 T ext"..., 8191) = 8191
+read(3, "line_data_nolock\nffffffff812e165"..., 8191) = 8191
+brk(0x11a1000)                          = 0x11a1000
+read(3, "2f09b0 t load_superblock.part.39"..., 8191) = 8191
+read(3, "ffff81300120 t fat_readdir\nfffff"..., 8191) = 8191
+read(3, "ecrypt_filename\nffffffff8130ed80"..., 8191) = 8191
+read(3, "\nffffffff8131fcc0 T fuse_fsync_c"..., 8191) = 8191
+read(3, "node\nffffffff813284e0 T efivarfs"..., 8191) = 8191
+read(3, "ffff81335e70 T compat_sys_mq_get"..., 8191) = 8191
+brk(0x11c2000)                          = 0x11c2000
+read(3, "ffff81341c40 T cap_task_fix_setu"..., 8191) = 8191
+read(3, "6ce0 T security_socket_shutdown\n"..., 8191) = 8191
+read(3, "vc_callback\nffffffff8134df10 t s"..., 8191) = 8191
+read(3, "\nffffffff8135a850 T policydb_typ"..., 8191) = 8191
+read(3, "ffffff81366400 t smack_msg_queue"..., 8191) = 8191
+read(3, "update_stat\nffffffff813726c0 T t"..., 8191) = 8191
+brk(0x11e3000)                          = 0x11e3000
+read(3, "p_task_context\nffffffff8137eaa0 "..., 8191) = 8191
+read(3, "free_rcu\nffffffff81391f40 T aa_l"..., 8191) = 8191
+read(3, "e_key.part.0\nffffffff813a3090 t "..., 8191) = 8191
+read(3, "0 T ahash_register_instance\nffff"..., 8191) = 8191
+read(3, "509_note_pkey_algo\nffffffff813b5"..., 8191) = 8191
+read(3, "ce_block_bio_queue\nffffffff813bf"..., 8191) = 8191
+brk(0x1204000)                          = 0x1204000
+read(3, "\nffffffff813c9c40 T __blk_comple"..., 8191) = 8191
+read(3, "block_events\nffffffff813d3820 T "..., 8191) = 8191
+read(3, "tore\nffffffff813e4da0 t cfq_back"..., 8191) = 8191
+read(3, "c\nffffffff813f2970 T idr_alloc_c"..., 8191) = 8191
+read(3, "0 T insn_rip_relative\nffffffff81"..., 8191) = 8191
+read(3, "_free_tags\nffffffff81407270 T pe"..., 8191) = 8191
+brk(0x1225000)                          = 0x1225000
+read(3, "_create\nffffffff81418c30 T xz_de"..., 8191) = 8191
+read(3, "ctrl_dev_get_name\nffffffff81424b"..., 8191) = 8191
+read(3, " t trace_event_raw_event_gpio_va"..., 8191) = 8191
+read(3, "nfig_dword\nffffffff81435a80 T pc"..., 8191) = 8191
+read(3, " pci_set_platform_pm\nffffffff814"..., 8191) = 8191
+read(3, "s_sorted\nffffffff81446dc0 t __de"..., 8191) = 8191
+brk(0x1246000)                          = 0x1246000
+read(3, "e_show\nffffffff8144f5e0 t pcie_a"..., 8191) = 8191
+read(3, "ffff8145b2f0 T acpiphp_remove_sl"..., 8191) = 8191
+read(3, "oframe_pack\nffffffff814642c0 T h"..., 8191) = 8191
+read(3, "ffff814792b0 t show_name\nfffffff"..., 8191) = 8191
+read(3, " t acpi_hide_nondev_subnodes\nfff"..., 8191) = 8191
+read(3, "ff8148c896 t dock_present\nffffff"..., 8191) = 8191
+read(3, "do_implicit_return\nffffffff81495"..., 8191) = 8191
+brk(0x1267000)                          = 0x1267000
+read(3, "x_do_concatenate\nffffffff814a046"..., 8191) = 8191
+read(3, "t_next_arg\nffffffff814a8f01 T ac"..., 8191) = 8191
+read(3, "fffffff814b09b0 T acpi_ut_walk_p"..., 8191) = 8191
+read(3, "f29 t thermal_get_temp\nffffffff8"..., 8191) = 8191
+read(3, "fffffff814c1d20 T pnp_stop_dev\nf"..., 8191) = 8191
+read(3, "fffff814cc940 t gnttab_update_en"..., 8191) = 8191
+brk(0x1288000)                          = 0x1288000
+read(3, "ly\nffffffff814d5340 t join\nfffff"..., 8191) = 8191
+read(3, "814dee20 t xen_efi_update_capsul"..., 8191) = 8191
+read(3, "et\nffffffff814e7390 T reset_cont"..., 8191) = 8191
+read(3, "rt_install\nffffffff814f39a0 t tt"..., 8191) = 8191
+read(3, "0 t con_close\nffffffff814fef90 T"..., 8191) = 8191
+read(3, "f8150dba0 t default_serial_dl_wr"..., 8191) = 8191
+brk(0x12a9000)                          = 0x12a9000
+read(3, "vice\nffffffff81518340 t kgdb_nmi"..., 8191) = 8191
+read(3, "00 t add_early_randomness\nffffff"..., 8191) = 8191
+read(3, "fffff8152f4a0 t tpm_show_ppi_ver"..., 8191) = 8191
+read(3, "_iommu_domain_alloc\nffffffff8153"..., 8191) = 8191
+read(3, "fff81545ee0 t reenable_irq_remap"..., 8191) = 8191
+read(3, "nt_filter\nffffffff8154f060 t dev"..., 8191) = 8191
+brk(0x12ca000)                          = 0x12ca000
+read(3, "50 t print_cpus_offline\nffffffff"..., 8191) = 8191
+read(3, "_generic_suspend\nffffffff8155c89"..., 8191) = 8191
+read(3, "6020 T dmam_alloc_coherent\nfffff"..., 8191) = 8191
+read(3, "fff8156f750 T regcache_cache_onl"..., 8191) = 8191
+read(3, "1110 t blkfront_probe\nffffffff81"..., 8191) = 8191
+read(3, "sk\nffffffff81590210 t twl4030_si"..., 8191) = 8191
+brk(0x12eb000)                          = 0x12eb000
+read(3, "\nffffffff81599ab0 T abx500_get_r"..., 8191) = 8191
+read(3, "a1740 t mapping26_show\nffffffff8"..., 8191) = 8191
+read(3, "spatch_cmd_start\nffffffff815adcc"..., 8191) = 8191
+read(3, "bc470 t show_proc_name\nffffffff8"..., 8191) = 8191
+read(3, "d_eh_action\nffffffff815c4550 t s"..., 8191) = 8191
+read(3, "fffffff815d30a0 T ata_qc_complet"..., 8191) = 8191
+brk(0x130c000)                          = 0x130c000
+read(3, "15e4090 T ata_sff_wait_ready\nfff"..., 8191) = 8191
+read(3, "t spi_statistics_transfer_bytes_"..., 8191) = 8191
+read(3, "t tun_net_open\nffffffff815f5b40 "..., 8191) = 8191
+read(3, "mmc_ioctl_cdrom_read_audio\nfffff"..., 8191) = 8191
+read(3, "fff8161bb40 t driver_set_config_"..., 8191) = 8191
+read(3, "onnect_type_show\nffffffff816273f"..., 8191) = 8191
+read(3, "r_ddma\nffffffff81637bf0 T dwc2_d"..., 8191) = 8191
+brk(0x132d000)                          = 0x132d000
+read(3, "s.isra.17\nffffffff8164dd50 t uhc"..., 8191) = 8191
+read(3, "ffffff816658a0 T xhci_port_state"..., 8191) = 8191
+read(3, "671150 t input_dev_show_cap_ev\nf"..., 8191) = 8191
+read(3, "_visible\nffffffff8167e6d0 t max_"..., 8191) = 8191
+read(3, "1688b40 t charger_externally_con"..., 8191) = 8191
+read(3, "0 t mdstat_poll\nffffffff81694490"..., 8191) = 8191
+brk(0x134e000)                          = 0x134e000
+read(3, "e\nffffffff816a8180 T bitmap_stat"..., 8191) = 8191
+read(3, "rget_message\nffffffff816b12e0 t "..., 8191) = 8191
+read(3, "0 t show_sampling_rate_min_gov_s"..., 8191) = 8191
+read(3, "r_enable_device\nffffffff816c5310"..., 8191) = 8191
+read(3, "d\nffffffff816d1070 t sdio_enable"..., 8191) = 8191
+read(3, " efivar_entry_add\nffffffff816d9a"..., 8191) = 8191
+brk(0x136f000)                          = 0x136f000
+read(3, "f816edd00 t clk_prepare_unlock\nf"..., 8191) = 8191
+read(3, "\nffffffff816f6550 t devfreq_powe"..., 8191) = 8191
+read(3, "irqs\nffffffff816ffd30 t xen_init"..., 8191) = 8191
+read(3, "7080a0 T SyS_recvmmsg\nffffffff81"..., 8191) = 8191
+read(3, "fff817164d0 T sk_stream_wait_con"..., 8191) = 8191
+read(3, "ff81720250 T __dev_forward_skb\nf"..., 8191) = 8191
+brk(0x1390000)                          = 0x1390000
+read(3, "ffffff8172e390 T neigh_resolve_o"..., 8191) = 8191
+read(3, " format_addr_assign_type\nfffffff"..., 8191) = 8191
+read(3, "_source\nffffffff81745e80 t trace"..., 8191) = 8191
+read(3, "81751430 t tc_ctl_action\nfffffff"..., 8191) = 8191
+read(3, "f8175d1d0 t __ip_do_redirect\nfff"..., 8191) = 8191
+read(3, "fff817743c0 t tcp_dsack_set.part"..., 8191) = 8191
+read(3, "pen_reset_cipher\nffffffff8178b34"..., 8191) = 8191
+brk(0x13b1000)                          = 0x13b1000
+read(3, "v4_mib_init_net\nffffffff8179d2a0"..., 8191) = 8191
+read(3, "p_seq_show\nffffffff817af690 t ip"..., 8191) = 8191
+read(3, "17be9b0 T xfrm_lookup\nffffffff81"..., 8191) = 8191
+read(3, "17cd4a0 t ip6_dst_lookup_tail\nff"..., 8191) = 8191
+read(3, "icmp6_dst_alloc\nffffffff817e0490"..., 8191) = 8191
+read(3, "ffff817f30e0 t ip6_mc_add_src\nff"..., 8191) = 8191
+brk(0x13d2000)                          = 0x13d2000
+read(3, "805620 t xfrm6_dst_lookup\nffffff"..., 8191) = 8191
+read(3, "ff81814320 t wireless_dev_seq_st"..., 8191) = 8191
+read(3, " t dcbnl_pgtx_getcfg\nffffffff818"..., 8191) = 8191
+read(3, "k\nffffffff8182b3f0 t __ww_mutex_"..., 8191) = 8191
+read(3, "fffffff81832f8c T __stop_notes\nf"..., 8191) = 8191
+read(3, "am_str_filter_offset\nffffffff81a"..., 8191) = 8191
+read(3, "qs\nffffffff81a19420 r __param_st"..., 8191) = 8191
+read(3, "ff81a23a20 r jumptable.48208\nfff"..., 8191) = 8191
+read(3, "s\nffffffff81a2a740 R proc_mounti"..., 8191) = 8191
+read(3, "s_prealloc_kfops_wo\nffffffff81a3"..., 8191) = 8191
+read(3, "fff81a36c10 r __func__.59696\nfff"..., 8191) = 8191
+read(3, "099\nffffffff81a3b330 r __func__."..., 8191) = 8191
+read(3, "r __func__.59180\nffffffff81a4499"..., 8191) = 8191
+read(3, "N__.53584\nffffffff81a48ec0 r soc"..., 8191) = 8191
+read(3, "ffff81a51f00 R inat_escape_table"..., 8191) = 8191
+read(3, "ring\nffffffff81a623c0 r __param_"..., 8191) = 8191
+read(3, "w_i2c_dev_desc\nffffffff81a69520 "..., 8191) = 8191
+read(3, "fffffff81a70300 r hest_esrc_len_"..., 8191) = 8191
+read(3, "ffffffff81a762a0 r timedia_quad_"..., 8191) = 8191
+read(3, "b920 r platform_dev_group\nffffff"..., 8191) = 8191
+read(3, "irq_chip\nffffffff81a90680 r axp2"..., 8191) = 8191
+read(3, "a380 r ns_lbasize_supported\nffff"..., 8191) = 8191
+read(3, "44699\nffffffff81aa4fd0 r __func_"..., 8191) = 8191
+read(3, "fff81aabdc0 r __func__.39570\nfff"..., 8191) = 8191
+read(3, "0fd0 r __func__.35482\nffffffff81"..., 8191) = 8191
+read(3, "ffff81ab6090 r __param_str_softr"..., 8191) = 8191
+read(3, "m_str_off\nffffffff81ab94d0 r cpu"..., 8191) = 8191
+read(3, "R bpf_redirect_proto\nffffffff81a"..., 8191) = 8191
+read(3, "59453\nffffffff81ac6f30 r __func_"..., 8191) = 8191
+read(3, "r_call_function_single_exit\nffff"..., 8191) = 8191
+read(3, "pages\nffffffff81d6c8d8 r __trace"..., 8191) = 8191
+read(3, "racepoint_ptr_jbd2_run_stats\nfff"..., 8191) = 8191
+read(3, "__tracepoint_ptr_udp_fail_queue_"..., 8191) = 8191
+read(3, " r __tpstrtab_rpm_resume\nfffffff"..., 8191) = 8191
+read(3, "ffffffff81d6f490 r __tpstrtab_ex"..., 8191) = 8191
+read(3, "ete\nffffffff81d705d8 r __tpstrta"..., 8191) = 8191
+read(3, "k_intel_mc_errata2966\nffffffff81"..., 8191) = 8191
+read(3, " r __pci_fixup_amd_disable_seq_a"..., 8191) = 8191
+read(3, "620 r __pci_fixup_quirk_intel_pc"..., 8191) = 8191
+read(3, "up_resume_earlyquirk_amd_orderin"..., 8191) = 8191
+read(3, "d7cd00 R __ksymtab___kfifo_out_p"..., 8191) = 8191
+read(3, "7d7c0 R __ksymtab___xfrm_route_f"..., 8191) = 8191
+read(3, "f0 R __ksymtab_acpi_os_write_por"..., 8191) = 8191
+read(3, "ffffffff81d7ec30 R __ksymtab_ave"..., 8191) = 8191
+read(3, "e_same_sectors\nffffffff81d7f6f0 "..., 8191) = 8191
+read(3, "string\nffffffff81d801c0 R __ksym"..., 8191) = 8191
+read(3, "_set_promiscuity\nffffffff81d80d2"..., 8191) = 8191
+read(3, "_quota_on\nffffffff81d81810 R __k"..., 8191) = 8191
+read(3, "ze_llseek\nffffffff81d82350 R __k"..., 8191) = 8191
+read(3, "fff81d82e40 R __ksymtab_get_seco"..., 8191) = 8191
+read(3, "__ksymtab_inet_csk_timer_bug_msg"..., 8191) = 8191
+read(3, "f81d843e0 R __ksymtab_ip6_xmit\nf"..., 8191) = 8191
+read(3, "ffff81d84ea0 R __ksymtab_kfree_c"..., 8191) = 8191
+read(3, "ff81d859f0 R __ksymtab_md_check_"..., 8191) = 8191
+read(3, "1d864e0 R __ksymtab_msrs_alloc\nf"..., 8191) = 8191
+read(3, "egister_sockopt\nffffffff81d86f80"..., 8191) = 8191
+read(3, "ind_capability\nffffffff81d87aa0 "..., 8191) = 8191
+read(3, "_ksymtab_ping_prot\nffffffff81d88"..., 8191) = 8191
+read(3, "tab_rb_insert_color\nffffffff81d8"..., 8191) = 8191
+read(3, "_dev_info_remove_list\nffffffff81"..., 8191) = 8191
+read(3, "0 R __ksymtab_seq_puts\nffffffff8"..., 8191) = 8191
+read(3, "nt\nffffffff81d8b040 R __ksymtab_"..., 8191) = 8191
+read(3, "R __ksymtab_t10_pi_type3_ip\nffff"..., 8191) = 8191
+read(3, "_tty_port_tty_set\nffffffff81d8c6"..., 8191) = 8191
+read(3, "\nffffffff81d8d1e0 R __ksymtab_vg"..., 8191) = 8191
+read(3, "f81d8dcb0 R __ksymtab_xfrm_find_"..., 8191) = 8191
+read(3, "fffffff81d8e710 R __ksymtab___ne"..., 8191) = 8191
+read(3, "ffffffff81d8f0f0 R __ksymtab_acp"..., 8191) = 8191
+read(3, "\nffffffff81d8fb50 R __ksymtab_at"..., 8191) = 8191
+read(3, "ksymtab_blk_add_request_payload\n"..., 8191) = 8191
+read(3, "k_is_match\nffffffff81d91080 R __"..., 8191) = 8191
+read(3, "tfm\nffffffff81d91aa0 R __ksymtab"..., 8191) = 8191
+read(3, "ffff81d92510 R __ksymtab_dev_pm_"..., 8191) = 8191
+read(3, "_ksymtab_devres_free\nffffffff81d"..., 8191) = 8191
+read(3, "ree\nffffffff81d939d0 R __ksymtab"..., 8191) = 8191
+read(3, "f81d94480 R __ksymtab_gnttab_fre"..., 8191) = 8191
+read(3, "d0 R __ksymtab_inet_csk_route_ch"..., 8191) = 8191
+read(3, "ffffff81d95940 R __ksymtab_irq_t"..., 8191) = 8191
+read(3, "mtab_max8997_update_reg\nffffffff"..., 8191) = 8191
+read(3, "ache_async_readahead\nffffffff81d"..., 8191) = 8191
+read(3, "gprot_writethrough\nffffffff81d97"..., 8191) = 8191
+read(3, "40 R __ksymtab_power_supply_get_"..., 8191) = 8191
+read(3, "f81d98da0 R __ksymtab_regmap_get"..., 8191) = 8191
+read(3, "ring_buffer_read_page\nffffffff81"..., 8191) = 8191
+read(3, "i_mode_select\nffffffff81d9a1d0 R"..., 8191) = 8191
+read(3, "spi_write_then_read\nffffffff81d9"..., 8191) = 8191
+read(3, "ts\nffffffff81d9b6c0 R __ksymtab_"..., 8191) = 8191
+read(3, "_usb_anchor_resume_wakeups\nfffff"..., 8191) = 8191
+read(3, "d_feature\nffffffff81d9cb90 R __k"..., 8191) = 8191
+read(3, "symtab_xenbus_dev_error\nffffffff"..., 8191) = 8191
+read(3, "_load\nffffffff81d9dd58 r __kcrct"..., 8191) = 8191
+read(3, "ff81d9e2c8 r __kcrctab___skb_che"..., 8191) = 8191
+read(3, "9e7f8 r __kcrctab_acpi_get_data_"..., 8191) = 8191
+read(3, "_alloc_fcdev\nffffffff81d9ed00 r "..., 8191) = 8191
+read(3, "__kcrctab_blk_limits_io_min\nffff"..., 8191) = 8191
+read(3, "crctab_clkdev_drop\nffffffff81d9f"..., 8191) = 8191
+read(3, "from_page_cache\nffffffff81d9fd48"..., 8191) = 8191
+read(3, "orted\nffffffff81da02b8 r __kcrct"..., 8191) = 8191
+read(3, "a0868 r __kcrctab_fbcon_rotate_c"..., 8191) = 8191
+read(3, "file_write_iter\nffffffff81da0df0"..., 8191) = 8191
+read(3, "1da1360 r __kcrctab_iget_locked\n"..., 8191) = 8191
+read(3, "18b0 r __kcrctab_intel_gtt_inser"..., 8191) = 8191
+read(3, "updates\nffffffff81da1e18 r __kcr"..., 8191) = 8191
+read(3, "ffff81da23c8 r __kcrctab_loop_un"..., 8191) = 8191
+read(3, "crctab_mmc_erase\nffffffff81da293"..., 8191) = 8191
+read(3, "_detach\nffffffff81da2e98 r __kcr"..., 8191) = 8191
+read(3, "fffff81da3410 r __kcrctab_pageve"..., 8191) = 8191
+read(3, "fffffff81da3970 r __kcrctab_pcie"..., 8191) = 8191
+read(3, "_filp\nffffffff81da3ef8 r __kcrct"..., 8191) = 8191
+read(3, "crctab_rfkill_unregister\nfffffff"..., 8191) = 8191
+read(3, "78 r __kcrctab_security_path_unl"..., 8191) = 8191
+read(3, "transaction_release\nffffffff81da"..., 8191) = 8191
+read(3, "k\nffffffff81da54b8 r __kcrctab_s"..., 8191) = 8191
+read(3, " __kcrctab_touch_buffer\nffffffff"..., 8191) = 8191
+read(3, "kcrctab_unregister_netdevice_not"..., 8191) = 8191
+read(3, "fff81da6530 r __kcrctab_warn_slo"..., 8191) = 8191
+read(3, "___cookie_v4_check\nffffffff81da6"..., 8191) = 8191
+read(3, "p_sync\nffffffff81da6f80 r __kcrc"..., 8191) = 8191
+read(3, "pei_resources_release\nffffffff81"..., 8191) = 8191
+read(3, "81da79d8 r __kcrctab_ata_sff_wai"..., 8191) = 8191
+read(3, "da7f18 r __kcrctab_bus_set_iommu"..., 8191) = 8191
+read(3, "_verify\nffffffff81da8448 r __kcr"..., 8191) = 8191
+read(3, "x_pmd_fault\nffffffff81da8970 r _"..., 8191) = 8191
+read(3, "hwrng_unregister\nffffffff81da8e7"..., 8191) = 8191
+read(3, "1da93b8 r __kcrctab_efivar_entry"..., 8191) = 8191
+read(3, "1da9930 r __kcrctab_fwnode_prope"..., 8191) = 8191
+read(3, "ffffffff81da9e50 r __kcrctab_hv_"..., 8191) = 8191
+read(3, "0 r __kcrctab_iptunnel_xmit\nffff"..., 8191) = 8191
+read(3, "ffffff81daa8f0 r __kcrctab_leave"..., 8191) = 8191
+read(3, "tdev_rx_handler_register\nfffffff"..., 8191) = 8191
+read(3, "8 r __kcrctab_pci_user_read_conf"..., 8191) = 8191
+read(3, "81dab898 r __kcrctab_pm_generic_"..., 8191) = 8191
+read(3, "cks\nffffffff81dabdc8 r __kcrctab"..., 8191) = 8191
+read(3, "__kcrctab_request_firmware_direc"..., 8191) = 8191
+read(3, "tnl_put_cacheinfo\nffffffff81dac7"..., 8191) = 8191
+read(3, "f81dacd18 r __kcrctab_skb_morph\n"..., 8191) = 8191
+read(3, "que\nffffffff81dad248 r __kcrctab"..., 8191) = 8191
+read(3, "f81dad778 r __kcrctab_unix_socke"..., 8191) = 8191
+read(3, "crctab_usb_remove_hcd\nffffffff81"..., 8191) = 8191
+read(3, "hannels\nffffffff81dae1f8 r __kcr"..., 8191) = 8191
+read(3, "ffffff81dae8a0 r __kstrtab_xen_h"..., 8191) = 8191
+read(3, "et_desc\nffffffff81daf49c r __kst"..., 8191) = 8191
+read(3, "ab_usermodehelper_read_unlock\nff"..., 8191) = 8191
+read(3, "_wake_function\nffffffff81db0d35 "..., 8191) = 8191
+read(3, "f81db19dc r __kstrtab_console_tr"..., 8191) = 8191
+read(3, "__kstrtab_clock_t_to_jiffies\nfff"..., 8191) = 8191
+read(3, "bsys_on_dfl_key\nffffffff81db338a"..., 8191) = 8191
+read(3, "r_trace_event\nffffffff81db4110 r"..., 8191) = 8191
+read(3, "4e27 r __kstrtab_probe_kernel_re"..., 8191) = 8191
+read(3, "_user\nffffffff81db5a2b r __kstrt"..., 8191) = 8191
+read(3, "et_super\nffffffff81db6620 r __ks"..., 8191) = 8191
+read(3, "1db70fb r __kstrtab_empty_aops\nf"..., 8191) = 8191
+read(3, "db7cb2 r __kstrtab__submit_bh\nff"..., 8191) = 8191
+read(3, "fffff81db88ab r __kstrtab_dquot_"..., 8191) = 8191
+read(3, "s_encode_inode_fh\nffffffff81db95"..., 8191) = 8191
+read(3, "81dba2ce r __kstrtab_ima_file_ch"..., 8191) = 8191
+read(3, "affb r __kstrtab_key_type_asymme"..., 8191) = 8191
+read(3, "eue_logical_block_size\nffffffff8"..., 8191) = 8191
+read(3, "73 r __kstrtab_get_options\nfffff"..., 8191) = 8191
+read(3, "1dbd3f1 r __kstrtab___bitmap_shi"..., 8191) = 8191
+read(3, "im_iomap\nffffffff81dbdf64 r __ks"..., 8191) = 8191
+read(3, " r __kstrtab_ucs2_as_utf8\nffffff"..., 8191) = 8191
+read(3, "_kstrtab_pwm_config\nffffffff81db"..., 8191) = 8191
+read(3, "ffffff81dc0539 r __kstrtab_pci_g"..., 8191) = 8191
+read(3, " __kstrtab_soft_cursor\nffffffff8"..., 8191) = 8191
+read(3, "ffffffff81dc1fba r __kstrtab_ec_"..., 8191) = 8191
+read(3, "t_parse\nffffffff81dc2da1 r __kst"..., 8191) = 8191
+read(3, "ab_xenbus_watch_path\nffffffff81d"..., 8191) = 8191
+read(3, "strtab_tty_driver_kref_put\nfffff"..., 8191) = 8191
+read(3, "5699 r __kstrtab_get_random_int\n"..., 8191) = 8191
+read(3, "at\nffffffff81dc63d9 r __kstrtab_"..., 8191) = 8191
+read(3, "e_file_ns\nffffffff81dc7111 r __k"..., 8191) = 8191
+read(3, "untime_resume\nffffffff81dc7f4b r"..., 8191) = 8191
+read(3, "_auxadc_read\nffffffff81dc8c5e r "..., 8191) = 8191
+read(3, "dc995b r __kstrtab_nd_region_to_"..., 8191) = 8191
+read(3, "list\nffffffff81dca67e r __kstrta"..., 8191) = 8191
+read(3, "b347 r __kstrtab_ata_bmdma_qc_pr"..., 8191) = 8191
+read(3, "_last_written\nffffffff81dcbfaa r"..., 8191) = 8191
+read(3, "__kstrtab_ehci_handshake\nfffffff"..., 8191) = 8191
+read(3, "81dcd965 r __kstrtab_power_suppl"..., 8191) = 8191
+read(3, "ce693 r __kstrtab___cpufreq_driv"..., 8191) = 8191
+read(3, "1dcf3a9 r __kstrtab_dmi_get_date"..., 8191) = 8191
+read(3, "09c r __kstrtab_devm_extcon_dev_"..., 8191) = 8191
+read(3, "ffffff81dd0cf0 r __kstrtab_sk_ds"..., 8191) = 8191
+read(3, "ffffff81dd191c r __kstrtab_alloc"..., 8191) = 8191
+read(3, "tab_dst_discard_out\nffffffff81dd"..., 8191) = 8191
+read(3, "_kstrtab_qdisc_class_hash_insert"..., 8191) = 8191
+read(3, "_inet_twsk_schedule\nffffffff81dd"..., 8191) = 8191
+read(3, "tab_register_inetaddr_notifier\nf"..., 8191) = 8191
+read(3, " __kstrtab_xfrm_local_error\nffff"..., 8191) = 8191
+read(3, "6424 r __kstrtab_klist_prev\nffff"..., 8191) = 8191
+read(3, "aram_nousb\nffffffff81dd8538 r __"..., 8191) = 8191
+read(3, "d format_attr_devid_mask\nfffffff"..., 8191) = 8191
+read(3, "_attr_pld\nffffffff81e1a200 d for"..., 8191) = 8191
+read(3, "2e0 d snbep_uncore_imc_events\nff"..., 8191) = 8191
+read(3, "sted_intr_wakeup_handler\nfffffff"..., 8191) = 8191
+read(3, "ioapic_mutex\nffffffff81e2aba0 d "..., 8191) = 8191
+read(3, "ty_ns\nffffffff81e42030 d min_sch"..., 8191) = 8191
+read(3, "call_meta__newuname\nffffffff81e4"..., 8191) = 8191
+read(3, "70 d cpuset_cpu_active_nb.61059\n"..., 8191) = 8191
+read(3, "attr\nffffffff81e50b60 d wake_loc"..., 8191) = 8191
+read(3, "me\nffffffff81e55ae0 d args__cloc"..., 8191) = 8191
+read(3, "ype_funcs_module_refcnt\nffffffff"..., 8191) = 8191
+read(3, "ff81e60f10 d next_event_type\nfff"..., 8191) = 8191
+read(3, "int_exceptions_nb\nffffffff81e661"..., 8191) = 8191
+read(3, "on_deferred\nffffffff81e6cf80 d e"..., 8191) = 8191
+read(3, "fffff81e72020 d objects_partial_"..., 8191) = 8191
+read(3, "e77a60 d args__readv\nffffffff81e"..., 8191) = 8191
+read(3, "fff81e7c3e0 d event_exit__pselec"..., 8191) = 8191
+read(3, "f81e81ae0 d args__tee\nffffffff81"..., 8191) = 8191
+read(3, "81e85f80 d args__io_getevents\nff"..., 8191) = 8191
+read(3, "ert_range\nffffffff81e8e040 d tra"..., 8191) = 8191
+read(3, "_new_inode_pa\nffffffff81e91680 d"..., 8191) = 8191
+read(3, " d __syscall_meta__semget\nffffff"..., 8191) = 8191
+read(3, "surement_rules\nffffffff81ea3c80 "..., 8191) = 8191
+read(3, "fffff81eab000 d integrity_interv"..., 8191) = 8191
+read(3, "1eae620 d acpi_attr_label\nffffff"..., 8191) = 8191
+read(3, "i_rs_convert_spi_serial_bus\nffff"..., 8191) = 8191
+read(3, "ffffffff81eb8880 d changeset_att"..., 8191) = 8191
+read(3, "c3780 d sysctl_poolsize\nffffffff"..., 8191) = 8191
+read(3, "81ec7c40 d intel_ir_chip\nfffffff"..., 8191) = 8191
+read(3, "ap_cache_only\nffffffff81eca8e0 d"..., 8191) = 8191
+read(3, "ff81ed38e0 d ldo8_resources\nffff"..., 8191) = 8191
+read(3, "sdev_attr_groups\nffffffff81edb2e"..., 8191) = 8191
+read(3, "ffffffff81ee1820 d dev_attr_spi_"..., 8191) = 8191
+read(3, "pe\nffffffff81ee45f0 d port_dev_g"..., 8191) = 8191
+read(3, "ttr_group\nffffffff81ee8e70 d hwm"..., 8191) = 8191
+read(3, "fff81eebd20 d up_threshold_gov_p"..., 8191) = 8191
+read(3, "t_status\nffffffff81eee800 d esre"..., 8191) = 8191
+read(3, "ffff81ef34a0 d types__accept4\nff"..., 8191) = 8191
+read(3, "o_cgrp_subsys\nffffffff81ef89c0 d"..., 8191) = 8191
+read(3, "1f01820 d packet_proto\nffffffff8"..., 8191) = 8191
+read(3, "lloc\nffffffff81f055a0 d event_cl"..., 8191) = 8191
+read(3, "ffff81f0a260 d event_class_regca"..., 8191) = 8191
+read(3, "d.34583\nffffffff81f0dd39 d __war"..., 8191) = 8191
+read(3, "57369\nffffffff81f0de2a d __warne"..., 8191) = 8191
+read(3, "810\nffffffff81f0df1b d __warned."..., 8191) = 8191
+read(3, "entry\nffffffff81f0ea60 D __trace"..., 8191) = 8191
+read(3, "ck_dirty_inode_enqueue\nffffffff8"..., 8191) = 8191
+read(3, "8e0 D __tracepoint_block_bio_bac"..., 8191) = 8191
+read(3, "ffff81f1c240 d descriptor.29472\n"..., 8191) = 8191
+read(3, "riptor.36706\nffffffff81f1e5e0 d "..., 8191) = 8191
+read(3, " descriptor.39709\nffffffff81f209"..., 8191) = 8191
+read(3, "fffffff81f22cf8 d descriptor.363"..., 8191) = 8191
+read(3, "escriptor.33407\nffffffff81f25098"..., 8191) = 8191
+read(3, "fffff81f27410 d descriptor.36718"..., 8191) = 8191
+read(3, "criptor.35836\nffffffff81f297b0 d"..., 8191) = 8191
+read(3, "fff81f2bb28 d descriptor.38494\nf"..., 8191) = 8191
+read(3, "iptor.26282\nffffffff81f2dec8 d d"..., 8191) = 8191
+read(3, "f81f30240 d descriptor.44735\nfff"..., 8191) = 8191
+read(3, "318 d ___tp_str.42270\nffffffff81"..., 8191) = 8191
+read(3, "f362d4 D timekeeping_suspended\nf"..., 8191) = 8191
+read(3, "f20 d __print_once.57198\nfffffff"..., 8191) = 8191
+read(3, "fffff81f3e798 D sysctl_tcp_dsack"..., 8191) = 8191
+read(3, "t\nffffffff81f604f9 T intel_pmu_l"..., 8191) = 8191
+read(3, "9de3 T alternative_instructions\n"..., 8191) = 8191
+brk(0x13f3000)                          = 0x13f3000
+read(3, "apic_bsp_setup\nffffffff81f72d5b "..., 8191) = 8191
+read(3, " uid_cache_init\nffffffff81f7ce90"..., 8191) = 8191
+read(3, "9f t set_ftrace_notrace\nffffffff"..., 8191) = 8191
+read(3, "define_fields_mm_compaction_suit"..., 8191) = 8191
+read(3, ".part.5\nffffffff81f92f74 t vmcor"..., 8191) = 8191
+read(3, " t sel_netport_init\nffffffff81f9"..., 8191) = 8191
+brk(0x1414000)                          = 0x1414000
+read(3, "ffffffff81fa23c3 t dmi_disable_o"..., 8191) = 8191
+read(3, "fff81fa9623 t trace_event_define"..., 8191) = 8191
+read(3, "nit\nffffffff81fb1f7c t xhci_hcd_"..., 8191) = 8191
+read(3, "\nffffffff81fbb5ad t set_scan_all"..., 8191) = 8191
+read(3, "rk_start\nffffffff82010b00 T x86_"..., 8191) = 8191
+read(3, "able\nffffffff8202a240 t osi_setu"..., 8191) = 8191
+brk(0x1435000)                          = 0x1435000
+read(3, "t_disabled_cpu_apicid\nffffffff82"..., 8191) = 8191
+read(3, " t __setup_str_cmdline_parts_set"..., 8191) = 8191
+read(3, "rk\nffffffff82087040 t __event_ex"..., 8191) = 8191
+read(3, "7610 t __event_enter__sched_sets"..., 8191) = 8191
+read(3, "be8 t __event_enter__bpf\nfffffff"..., 8191) = 8191
+read(3, "er__fstat\nffffffff820881b8 t __e"..., 8191) = 8191
+brk(0x1456000)                          = 0x1456000
+read(3, "it__epoll_create1\nffffffff820887"..., 8191) = 8191
+read(3, "__event_enter__shmat\nffffffff820"..., 8191) = 8191
+read(3, "_recvfrom\nffffffff820892c8 t __e"..., 8191) = 8191
+read(3, "syscall_meta__geteuid\nffffffff82"..., 8191) = 8191
+read(3, "scall_meta__ioctl\nffffffff82089d"..., 8191) = 8191
+read(3, "fff8208a318 t _kbl_addr_spurious"..., 8191) = 8191
+read(3, "er\nffffffff8208aef0 t __setup_pa"..., 8191) = 8191
+brk(0x1477000)                          = 0x1477000
+read(3, "ffff8208bfa0 t __setup_setup_ers"..., 8191) = 8191
+read(3, "fff8208c718 t __initcall_crash_s"..., 8191) = 8191
+read(3, "08cc78 t __initcall_inet_init5\nf"..., 8191) = 8191
+read(3, "t6\nffffffff8208d1c8 t __initcall"..., 8191) = 8191
+read(3, "_late_insert_resources7\nffffffff"..., 8191) = 8191
+read(3, " t ata_generic_pci_driver_exit\nf"..., 8191) = 8191
+read(3, "cbc38 b rcba_base\nffffffff820cbc"..., 8191) = 8191
+read(3, "_clock\nffffffff820fc680 b kvm_sc"..., 8191) = 8191
+read(3, "e\nffffffff821043cc b noresume\nff"..., 8191) = 8191
+read(3, "audit_skb_queue\nffffffff8216dd38"..., 8191) = 8191
+read(3, "_key.57532\nffffffff821c25f0 b pm"..., 8191) = 8191
+read(3, "b shared_last_ino.43807\nffffffff"..., 8191) = 8191
+read(3, "dev_opens\nffffffff821d04cc b nls"..., 8191) = 8191
+read(3, "ff821d9810 b bdev_map\nffffffff82"..., 8191) = 8191
+read(3, "\nffffffff821ddf78 B acpi_root_di"..., 8191) = 8191
+read(3, "fier\nffffffff821df8d8 B evtchn_t"..., 8191) = 8191
+read(3, "ure_resource\nffffffff821e8be0 b "..., 8191) = 8191
+read(3, "1ea884 B scsi_logging_level\nffff"..., 8191) = 8191
+read(3, "ompat_class\nffffffff821ed010 b i"..., 8191) = 8191
+read(3, "vel4_pgt\nffffffff821ef3c8 B rest"..., 8191) = 8191
+read(3, " rfkill_op_lock\nffffffff821fe910"..., 8191) = 492
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+times({tms_utime=8, tms_stime=0, tms_cutime=0, tms_cstime=0}) = 1718859026
+stat("whotouchmyfile.stp", {st_mode=S_IFREG|0664, st_size=233, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/4.4.0-34-generic/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4.0-34-generic", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4.0/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+brk(0x149f000)                          = 0x149f000
+getdents(3, /* 5 entries */, 32768)     = 160
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x1497000)                          = 0x1497000
+close(3)                                = 0
+open("/usr/share/systemtap/tapset/linux", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 85 entries */, 32768)    = 2976
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/context.stpm", {st_mode=S_IFREG|0644, st_size=125, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/context.stpm", O_RDONLY) = 3
+read(3, "@define __context_unwind_error(d"..., 8191) = 125
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/json.stpm", {st_mode=S_IFREG|0644, st_size=6256, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/json.stpm", O_RDONLY) = 3
+read(3, "// JSON tapset macros.\n// Copyri"..., 8191) = 6256
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nfs_proc.stpm", {st_mode=S_IFREG|0644, st_size=1213, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nfs_proc.stpm", O_RDONLY) = 3
+read(3, "// macros for nfs_proc.stp (the "..., 8191) = 1213
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/syscalls.stpm", {st_mode=S_IFREG|0644, st_size=11552, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/syscalls.stpm", O_RDONLY) = 3
+read(3, "// syscalls tapset macros\n// Cop"..., 8191) = 8191
+read(3, "arg3, @arg4,\n\t\t\t\t @__compat_long"..., 8191) = 3361
+read(3, "", 8191)                       = 0
+brk(0x14b8000)                          = 0x14b8000
+brk(0x14d9000)                          = 0x14d9000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/task.stpm", {st_mode=S_IFREG|0644, st_size=157, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/task.stpm", O_RDONLY) = 3
+read(3, "@define task(ptr) %(\n    @cast(@"..., 8191) = 157
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+open("/usr/share/systemtap/tapset/4.4.0-34-generic/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4.0-34-generic", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4.0/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 3 entries */, 32768)     = 88
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+open("/usr/share/systemtap/tapset", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 43 entries */, 32768)    = 1456
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/choose_defined.stpm", {st_mode=S_IFREG|0644, st_size=208, ...}) = 0
+open("/usr/share/systemtap/tapset/choose_defined.stpm", O_RDONLY) = 3
+read(3, "// Use the first parameter if it"..., 8191) = 208
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/container_of.stpm", {st_mode=S_IFREG|0644, st_size=235, ...}) = 0
+open("/usr/share/systemtap/tapset/container_of.stpm", O_RDONLY) = 3
+read(3, "@define container_of(ptr, type, "..., 8191) = 235
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/macros.stpm", {st_mode=S_IFREG|0644, st_size=169, ...}) = 0
+open("/usr/share/systemtap/tapset/macros.stpm", O_RDONLY) = 3
+read(3, "// Return MAXSTRINGLEN\n@define M"..., 8191) = 169
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/offsetof.stpm", {st_mode=S_IFREG|0644, st_size=173, ...}) = 0
+open("/usr/share/systemtap/tapset/offsetof.stpm", O_RDONLY) = 3
+read(3, "@define offsetof(type, member) %"..., 8191) = 173
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/type_defined.stpm", {st_mode=S_IFREG|0644, st_size=363, ...}) = 0
+open("/usr/share/systemtap/tapset/type_defined.stpm", O_RDONLY) = 3
+read(3, "@define type_defined(type) %(\n  "..., 8191) = 363
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+open("/usr/share/systemtap/tapset/linux/4.4.0-34-generic/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4.0-34-generic", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4.0/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/4.4", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/linux/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 5 entries */, 32768)     = 160
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/x86_64/aux_syscalls.stp", {st_mode=S_IFREG|0644, st_size=3780, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/x86_64/aux_syscalls.stp", O_RDONLY) = 3
+read(3, "# Helper for _arch_ptrace_argstr"..., 8191) = 3780
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/x86_64/nd_syscalls.stp", {st_mode=S_IFREG|0644, st_size=12923, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/x86_64/nd_syscalls.stp", O_RDONLY) = 3
+read(3, "# x86_64-specific system calls\n\n"..., 8191) = 8191
+read(3, "hi,\n#\t\t\t\t  size_t len, int advic"..., 8191) = 4732
+read(3, "", 8191)                       = 0
+brk(0x14fa000)                          = 0x14fa000
+brk(0x151b000)                          = 0x151b000
+brk(0x151a000)                          = 0x151a000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/x86_64/syscalls.stp", {st_mode=S_IFREG|0644, st_size=14405, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/x86_64/syscalls.stp", O_RDONLY) = 3
+read(3, "# x86_64-specific system calls\n\n"..., 8191) = 8191
+read(3, " = 0;\n\t\tpipe1 = 0;\n\t}\n\tretstr = "..., 8191) = 6214
+read(3, "", 8191)                       = 0
+brk(0x153b000)                          = 0x153b000
+close(3)                                = 0
+open("/usr/share/systemtap/tapset/linux", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+brk(0x155d000)                          = 0x155d000
+getdents(3, /* 85 entries */, 32768)    = 2976
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x1555000)                          = 0x1555000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/atomic.stp", {st_mode=S_IFREG|0644, st_size=1553, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/atomic.stp", O_RDONLY) = 3
+read(3, "// Atomic functions.\n// Copyrigh"..., 8191) = 1553
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/aux_syscalls.stp", {st_mode=S_IFREG|0644, st_size=142481, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/aux_syscalls.stp", O_RDONLY) = 3
+read(3, "\n%{\n// Be sure we have the __NR_"..., 8191) = 8191
+read(3, "tr = STAP_RETVALUE;\n\t\t\twhile (i "..., 8191) = 8191
+read(3, "s(sin->sin_port));\n            /"..., 8191) = 8191
+read(3, "argv from userspace. */\nfunction"..., 8191) = 8191
+read(3, "* On RHEL6 (2.6.32-431.3.1.el6.x"..., 8191) = 8191
+read(3, "     V(MFD_CLOEXEC),\n#endif\n#ifd"..., 8191) = 8191
+read(3, "so deprecate it.\nfunction _statf"..., 8191) = 8191
+read(3, "ng long)dqi.dqi_igrace,\n\t\t\t     "..., 8191) = 8191
+read(3, " pure */ IPPROTO_GRE %}) return "..., 8191) = 8191
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b47a000
+read(3, "ULL}\n};\n%}\n\nfunction _at_flag_st"..., 8191) = 8191
+read(3, "nd it in asm/ia32.h.  For s390x,"..., 8191) = 8191
+read(3, "    __ptrace_request_str(request"..., 8191) = 8191
+read(3, "str:string(value:long)\n%{ /* pur"..., 8191) = 8191
+read(3, "\t{0, NULL}\n};\n\n// Options that g"..., 8191) = 8191
+read(3, "LEN - len,\n\t\t\t      \", 0x%lx\", ("..., 8191) = 8191
+read(3, "FPE_FLTUND),\n  V(FPE_FLTRES),\n  "..., 8191) = 8191
+read(3, " == POLL_MSG)\n\t\t\t\tsnprintf(STAP_"..., 8191) = 8191
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b43a000
+munmap(0x7f056b47a000, 135168)          = 0
+read(3, "2,6,37) \\\n    && defined(__NR_fa"..., 8191) = 3234
+read(3, "", 8191)                       = 0
+mmap(NULL, 143360, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f056b417000
+brk(0x1576000)                          = 0x1576000
+brk(0x1597000)                          = 0x1597000
+brk(0x15b8000)                          = 0x15b8000
+brk(0x15d9000)                          = 0x15d9000
+munmap(0x7f056b43a000, 262144)          = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/context-caller.stp", {st_mode=S_IFREG|0644, st_size=3148, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/context-caller.stp", O_RDONLY) = 3
+read(3, "// context-caller tapset\n//\n// T"..., 8191) = 3148
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/context-envvar.stp", {st_mode=S_IFREG|0644, st_size=1746, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/context-envvar.stp", O_RDONLY) = 3
+read(3, "// context-envvar tapset\n// Copy"..., 8191) = 1746
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/context.stp", {st_mode=S_IFREG|0644, st_size=18185, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/context.stp", O_RDONLY) = 3
+read(3, "// context tapset\n// Copyright ("..., 8191) = 8191
+brk(0x15fb000)                          = 0x15fb000
+read(3, " */ /* stable */\n  int64_t rc = "..., 8191) = 8191
+read(3, " retrieved from the current\n * p"..., 8191) = 1803
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/context-symbols.stp", {st_mode=S_IFREG|0644, st_size=12269, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/context-symbols.stp", O_RDONLY) = 3
+read(3, "// context-symbols tapset\n// Cop"..., 8191) = 8191
+read(3, "ed.  If any element is not known"..., 8191) = 4078
+read(3, "", 8191)                       = 0
+brk(0x161c000)                          = 0x161c000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/context-unwind.stp", {st_mode=S_IFREG|0644, st_size=2881, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/context-unwind.stp", O_RDONLY) = 3
+read(3, "// context-unwind tapset\n// Copy"..., 8191) = 2881
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/conversions-guru.stp", {st_mode=S_IFREG|0644, st_size=5697, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/conversions-guru.stp", O_RDONLY) = 3
+read(3, "// guru-mode conversions tapset\n"..., 8191) = 5697
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/conversions.stp", {st_mode=S_IFREG|0644, st_size=11181, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/conversions.stp", O_RDONLY) = 3
+read(3, "// conversions tapset\n// Copyrig"..., 8191) = 8191
+read(3, "dr);\n  if (0) {\nderef_fault: /* "..., 8191) = 2990
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ctime.stp", {st_mode=S_IFREG|0644, st_size=5446, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ctime.stp", O_RDONLY) = 3
+read(3, "/* ctime.stp - Convert seconds t"..., 8191) = 5446
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/dentry.stp", {st_mode=S_IFREG|0644, st_size=10027, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/dentry.stp", O_RDONLY) = 3
+read(3, "// dentry tapset\n// Copyright (c"..., 8191) = 8191
+read(3, "\n\n\treturn sprintf(\"/%s\", name);\n"..., 8191) = 1836
+read(3, "", 8191)                       = 0
+brk(0x163d000)                          = 0x163d000
+brk(0x165e000)                          = 0x165e000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/dev.stp", {st_mode=S_IFREG|0644, st_size=1831, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/dev.stp", O_RDONLY) = 3
+read(3, "// Device tapset\n// Copyright (C"..., 8191) = 1831
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/endian.stp", {st_mode=S_IFREG|0644, st_size=602, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/endian.stp", O_RDONLY) = 3
+read(3, "function big_endian2:long (val:l"..., 8191) = 602
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/guru-delay.stp", {st_mode=S_IFREG|0644, st_size=1230, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/guru-delay.stp", O_RDONLY) = 3
+read(3, "// Copyright (C) 2012 Red Hat In"..., 8191) = 1230
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/guru-signal.stp", {st_mode=S_IFREG|0644, st_size=1092, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/guru-signal.stp", O_RDONLY) = 3
+read(3, "// Copyright (C) 2013 Red Hat In"..., 8191) = 1092
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/inet_sock.stp", {st_mode=S_IFREG|0644, st_size=1340, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/inet_sock.stp", O_RDONLY) = 3
+read(3, "// inet_sock information tapset "..., 8191) = 1340
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/inet.stp", {st_mode=S_IFREG|0644, st_size=1456, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/inet.stp", O_RDONLY) = 3
+read(3, "/* Some functions from libc <arp"..., 8191) = 1456
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ioblock.stp", {st_mode=S_IFREG|0644, st_size=12853, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ioblock.stp", O_RDONLY) = 3
+read(3, "// Block I/O tapset\n// Copyright"..., 8191) = 8191
+read(3, "segments = $bio->bi_phys_segment"..., 8191) = 4662
+read(3, "", 8191)                       = 0
+brk(0x167f000)                          = 0x167f000
+brk(0x16a0000)                          = 0x16a0000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ioscheduler.stp", {st_mode=S_IFREG|0644, st_size=12025, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ioscheduler.stp", O_RDONLY) = 3
+read(3, "// IO scheduler tapset\n// Copyri"..., 8191) = 8191
+read(3, "|| $rq->rq_disk ==0) {\n\t\tdisk_ma"..., 8191) = 3834
+read(3, "", 8191)                       = 0
+brk(0x16c1000)                          = 0x16c1000
+brk(0x16e2000)                          = 0x16e2000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ipmib-filter-default.stp", {st_mode=S_IFREG|0644, st_size=965, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ipmib-filter-default.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 965
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ipmib.stp", {st_mode=S_IFREG|0644, st_size=12851, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ipmib.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 8191
+read(3, "\n */\n\n/*\n   This stat combines a"..., 8191) = 4660
+read(3, "", 8191)                       = 0
+brk(0x1703000)                          = 0x1703000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ip.stp", {st_mode=S_IFREG|0644, st_size=5355, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ip.stp", O_RDONLY) = 3
+read(3, "// IP tapset\n//\n// Copyright (C)"..., 8191) = 5355
+read(3, "", 8191)                       = 0
+brk(0x1724000)                          = 0x1724000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/irq.stp", {st_mode=S_IFREG|0644, st_size=5120, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/irq.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 5120
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/json.stp", {st_mode=S_IFREG|0644, st_size=9129, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/json.stp", O_RDONLY) = 3
+read(3, "// JSON tapset.\n// Copyright (C)"..., 8191) = 8191
+read(3, "__metric_name]\n    \n          @_"..., 8191) = 938
+brk(0x1747000)                          = 0x1747000
+read(3, "", 8191)                       = 0
+brk(0x1768000)                          = 0x1768000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/kprocess.stp", {st_mode=S_IFREG|0644, st_size=4482, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/kprocess.stp", O_RDONLY) = 3
+read(3, "// kernel process tapset\n// Copy"..., 8191) = 4482
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/kretprobe.stp", {st_mode=S_IFREG|0644, st_size=2153, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/kretprobe.stp", O_RDONLY) = 3
+read(3, "// kretprobe data tapset\n// Copy"..., 8191) = 2153
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/linuxmib-filter-default.stp", {st_mode=S_IFREG|0644, st_size=876, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/linuxmib-filter-default.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 876
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/linuxmib.stp", {st_mode=S_IFREG|0644, st_size=3457, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/linuxmib.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 3457
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/loadavg.stp", {st_mode=S_IFREG|0644, st_size=1913, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/loadavg.stp", O_RDONLY) = 3
+read(3, "// Copyright (C) 2013 Red Hat In"..., 8191) = 1913
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/logging.stp", {st_mode=S_IFREG|0644, st_size=2127, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/logging.stp", O_RDONLY) = 3
+read(3, "// logging tapset\n// Copyright ("..., 8191) = 2127
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/memory.stp", {st_mode=S_IFREG|0644, st_size=18201, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/memory.stp", O_RDONLY) = 3
+read(3, "// memory/vm related tapset\n// C"..., 8191) = 8191
+read(3, "ifndef GFP_TEMPORARY\n#define GFP"..., 8191) = 8191
+brk(0x178a000)                          = 0x178a000
+read(3, "e probe point\n * @call_site: add"..., 8191) = 1819
+read(3, "", 8191)                       = 0
+brk(0x17ab000)                          = 0x17ab000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nd_syscalls2.stp", {st_mode=S_IFREG|0644, st_size=165631, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nd_syscalls2.stp", O_RDONLY) = 3
+read(3, "// syscalls tapset part 2 [N-Z]\n"..., 8191) = 8191
+read(3, ", unsigned long, flags)\nprobe nd"..., 8191) = 8191
+read(3, ".return ?\n{\n\tname = \"prctl\"\n\tret"..., 8191) = 8191
+brk(0x17cc000)                          = 0x17cc000
+read(3, "syscall_gate(%{ __NR_compat_psel"..., 8191) = 8191
+read(3, "mpat_readlinkat %})\n\tname = \"rea"..., 8191) = 8191
+read(3, "\t# check is that we're not in a "..., 8191) = 8191
+read(3, "gsetsize)\n#\nprobe nd_syscall.rt_"..., 8191) = 8191
+read(3, " ?,\n\t\t\t\t   __nd_syscall.compat_r"..., 8191) = 8191
+read(3, "d_setparam\"\n\tretstr = returnstr("..., 8191) = 8191
+brk(0x17fc000)                          = 0x17fc000
+read(3, "l.compat_ipc.semtimedop.sys_ipc "..., 8191) = 8191
+read(3, " not in a compat task.\n\t@__sysca"..., 8191) = 8191
+read(3, "r = kprobe.function(\"compat_sys_"..., 8191) = 8191
+read(3, "obust_list\")\n{\n\t@__syscall_gate_"..., 8191) = 8191
+read(3, "\n{\n#%( arch == \"powerpc\" || arch"..., 8191) = 8191
+read(3, "tr = returnstr(1)\n}\nprobe __nd_s"..., 8191) = 8191
+read(3, "g(2), \"ulong\", \"kernel<linux/typ"..., 8191) = 8191
+read(3, "________________________________"..., 8191) = 8191
+brk(0x183c000)                          = 0x183c000
+read(3, "un = kprobe.function(\"sys_timer_"..., 8191) = 8191
+read(3, "truncate64 ?,\n\t\t\t    __nd_syscal"..., 8191) = 8191
+read(3, "\n{\n\tname = \"utime\"\n\tasmlinkage()"..., 8191) = 8191
+read(3, "# write ________________________"..., 8191) = 1811
+read(3, "", 8191)                       = 0
+brk(0x185d000)                          = 0x185d000
+brk(0x187e000)                          = 0x187e000
+brk(0x189f000)                          = 0x189f000
+brk(0x18c0000)                          = 0x18c0000
+brk(0x18e1000)                          = 0x18e1000
+brk(0x1902000)                          = 0x1902000
+brk(0x1923000)                          = 0x1923000
+brk(0x1944000)                          = 0x1944000
+brk(0x1965000)                          = 0x1965000
+brk(0x1986000)                          = 0x1986000
+brk(0x19a7000)                          = 0x19a7000
+brk(0x19c8000)                          = 0x19c8000
+brk(0x19e9000)                          = 0x19e9000
+brk(0x1a0a000)                          = 0x1a0a000
+brk(0x1a2b000)                          = 0x1a2b000
+brk(0x1a4c000)                          = 0x1a4c000
+brk(0x1a6d000)                          = 0x1a6d000
+brk(0x1a8e000)                          = 0x1a8e000
+brk(0x1aaf000)                          = 0x1aaf000
+brk(0x1ad0000)                          = 0x1ad0000
+brk(0x1af1000)                          = 0x1af1000
+brk(0x1b12000)                          = 0x1b12000
+brk(0x1b33000)                          = 0x1b33000
+brk(0x1b54000)                          = 0x1b54000
+brk(0x1b75000)                          = 0x1b75000
+brk(0x1b96000)                          = 0x1b96000
+brk(0x1bb7000)                          = 0x1bb7000
+brk(0x1bd8000)                          = 0x1bd8000
+brk(0x1bf9000)                          = 0x1bf9000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nd_syscalls.stp", {st_mode=S_IFREG|0644, st_size=141458, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nd_syscalls.stp", O_RDONLY) = 3
+read(3, "// syscalls tapset part 1 [A-M]\n"..., 8191) = 8191
+read(3, "\n\tseconds = uint_arg(1)\n\targstr "..., 8191) = 8191
+read(3, "all.clock_adjtime = kprobe.funct"..., 8191) = 8191
+read(3, "t, parent_tid_uaddr, child_tid_u"..., 8191) = 8191
+read(3, "_syscall.epoll_pwait = kprobe.fu"..., 8191) = 8191
+read(3, " = long_arg(3)\n\tadvice = int_arg"..., 8191) = 8191
+read(3, "_fchownat(int dfd, const char __"..., 8191) = 8191
+read(3, "\n\tretstr = returnstr(1)\n}\n\n# fst"..., 8191) = 8191
+read(3, "e()\n\tbuf_uaddr = pointer_arg(1)\n"..., 8191) = 8191
+read(3, "int32(&(__args)[2])\n}\nprobe nd_s"..., 8191) = 8191
+read(3, "kname ?,\n\t__nd_syscall.compat_so"..., 8191) = 8191
+read(3, "flags)\n}\nprobe __nd_syscall.inot"..., 8191) = 8191
+read(3, "igned long, flags)\nprobe nd_sysc"..., 8191) = 8191
+read(3, "n ?,\n\tkprobe.function(\"compat_sy"..., 8191) = 8191
+read(3, "         mode_str, nmask_uaddr, "..., 8191) = 8191
+read(3, "nction(\"sys_mount\") ?\n{\n\tname = "..., 8191) = 8191
+read(3, "prio, abs_timeout_uaddr)\n}\nprobe"..., 8191) = 8191
+brk(0x1c3b000)                          = 0x1c3b000
+read(3, "addr = pointer_arg(4)\n}\nprobe __"..., 8191) = 2211
+read(3, "", 8191)                       = 0
+brk(0x1c5c000)                          = 0x1c5c000
+brk(0x1c7d000)                          = 0x1c7d000
+brk(0x1c9e000)                          = 0x1c9e000
+brk(0x1cbf000)                          = 0x1cbf000
+brk(0x1ce0000)                          = 0x1ce0000
+brk(0x1d01000)                          = 0x1d01000
+brk(0x1d22000)                          = 0x1d22000
+brk(0x1d43000)                          = 0x1d43000
+brk(0x1d64000)                          = 0x1d64000
+brk(0x1d85000)                          = 0x1d85000
+brk(0x1da6000)                          = 0x1da6000
+brk(0x1dc7000)                          = 0x1dc7000
+brk(0x1de8000)                          = 0x1de8000
+brk(0x1e09000)                          = 0x1e09000
+brk(0x1e2a000)                          = 0x1e2a000
+brk(0x1e4b000)                          = 0x1e4b000
+brk(0x1e6c000)                          = 0x1e6c000
+brk(0x1e8d000)                          = 0x1e8d000
+brk(0x1eae000)                          = 0x1eae000
+brk(0x1ecf000)                          = 0x1ecf000
+brk(0x1ef0000)                          = 0x1ef0000
+brk(0x1f11000)                          = 0x1f11000
+brk(0x1f32000)                          = 0x1f32000
+brk(0x1f53000)                          = 0x1f53000
+brk(0x1f74000)                          = 0x1f74000
+brk(0x1f95000)                          = 0x1f95000
+brk(0x1fb6000)                          = 0x1fb6000
+brk(0x1fd7000)                          = 0x1fd7000
+brk(0x1ff8000)                          = 0x1ff8000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/netfilter.stp", {st_mode=S_IFREG|0644, st_size=32321, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/netfilter.stp", O_RDONLY) = 3
+read(3, "/* netfilter.stp - netfilter hoo"..., 8191) = 8191
+read(3, "be netfilter.ip.pre_routing = ne"..., 8191) = 8191
+read(3, ": TCP RST flag (if protocol is T"..., 8191) = 8191
+read(3, "ess\n * @br_cost: Total cost from"..., 8191) = 7748
+read(3, "", 8191)                       = 0
+brk(0x2019000)                          = 0x2019000
+brk(0x203a000)                          = 0x203a000
+brk(0x205b000)                          = 0x205b000
+brk(0x207c000)                          = 0x207c000
+brk(0x209d000)                          = 0x209d000
+brk(0x20be000)                          = 0x20be000
+brk(0x20df000)                          = 0x20df000
+brk(0x2100000)                          = 0x2100000
+brk(0x2121000)                          = 0x2121000
+brk(0x2142000)                          = 0x2142000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/networking.stp", {st_mode=S_IFREG|0644, st_size=7342, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/networking.stp", O_RDONLY) = 3
+read(3, "// networking tapset\n// Copyrigh"..., 8191) = 7342
+read(3, "", 8191)                       = 0
+brk(0x2163000)                          = 0x2163000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nfsderrno.stp", {st_mode=S_IFREG|0644, st_size=11979, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nfsderrno.stp", O_RDONLY) = 3
+read(3, "// nfsd errnos tapset\n// Copyrig"..., 8191) = 8191
+read(3, "NFSERR_JUKEBOX\"},\n\t\t{nfserr_deni"..., 8191) = 3788
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nfsd.stp", {st_mode=S_IFREG|0644, st_size=40932, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nfsd.stp", O_RDONLY) = 3
+read(3, "// nfs tapset\n// Copyright (C) 2"..., 8191) = 8191
+read(3, "on(\"nfsd3_proc_lookup\") ?\n{\n\tcli"..., 8191) = 8191
+read(3, " $rqstp->rq_prot\n\tversion = 4\n\tf"..., 8191) = 8191
+read(3, "_rqst_str($rqstp)\n\n\tname = \"nfsd"..., 8191) = 8191
+read(3, "es\"\n} \n\nprobe nfsd.read.return ="..., 8191) = 8168
+brk(0x2192000)                          = 0x2192000
+read(3, "", 8191)                       = 0
+brk(0x21b3000)                          = 0x21b3000
+brk(0x21d4000)                          = 0x21d4000
+brk(0x21f5000)                          = 0x21f5000
+brk(0x2216000)                          = 0x2216000
+brk(0x2237000)                          = 0x2237000
+brk(0x2258000)                          = 0x2258000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nfs_proc.stp", {st_mode=S_IFREG|0644, st_size=56630, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nfs_proc.stp", O_RDONLY) = 3
+read(3, "// NFS procedure tapset\n// Copyr"..., 8191) = 8191
+read(3, "data)\n\toffset = $rdata->args->of"..., 8191) = 8191
+read(3, "e = \"nfs.proc4.commit.return\"\n\tr"..., 8191) = 8191
+read(3, "ted\n *\t      on this filesystem "..., 8191) = 8191
+read(3, "@size: bytes in this commit\n * @"..., 8191) = 8191
+read(3, "file handle of new parent dir\n *"..., 8191) = 8191
+read(3, " = 4\n\n\tfh = NFS_FH($dir)\n\tfilele"..., 8191) = 7484
+read(3, "", 8191)                       = 0
+brk(0x2279000)                          = 0x2279000
+brk(0x229a000)                          = 0x229a000
+brk(0x22bb000)                          = 0x22bb000
+brk(0x22dc000)                          = 0x22dc000
+brk(0x22fd000)                          = 0x22fd000
+brk(0x231e000)                          = 0x231e000
+brk(0x233f000)                          = 0x233f000
+brk(0x2360000)                          = 0x2360000
+brk(0x2381000)                          = 0x2381000
+brk(0x23a2000)                          = 0x23a2000
+brk(0x23c3000)                          = 0x23c3000
+brk(0x23e4000)                          = 0x23e4000
+brk(0x2405000)                          = 0x2405000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/nfs.stp", {st_mode=S_IFREG|0644, st_size=38765, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/nfs.stp", O_RDONLY) = 3
+read(3, "// nfs tapset\n// Copyright (C) 2"..., 8191) = 8191
+read(3, "evice name\n * \n * SystemTap uses"..., 8191) = 8191
+read(3, " address within vm_mm \n * @vm_en"..., 8191) = 8191
+read(3, "             nfs.aop.readpages.r"..., 8191) = 8191
+read(3, "evice identifier\n * @ino: inode "..., 8191) = 6001
+brk(0x2427000)                          = 0x2427000
+read(3, "", 8191)                       = 0
+brk(0x2448000)                          = 0x2448000
+brk(0x2469000)                          = 0x2469000
+brk(0x248a000)                          = 0x248a000
+brk(0x24ab000)                          = 0x24ab000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/panic.stp", {st_mode=S_IFREG|0644, st_size=1092, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/panic.stp", O_RDONLY) = 3
+read(3, "// Copyright (C) 2012 Red Hat In"..., 8191) = 1092
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/perf.stp", {st_mode=S_IFREG|0644, st_size=4609, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/perf.stp", O_RDONLY) = 3
+read(3, "// pcl aka perf aka perf-events "..., 8191) = 4609
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/proc_mem.stp", {st_mode=S_IFREG|0644, st_size=11766, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/proc_mem.stp", O_RDONLY) = 3
+read(3, "// Process memory query and util"..., 8191) = 8191
+brk(0x24cc000)                          = 0x24cc000
+read(3, "d_task(task)) {\n    mm = task->m"..., 8191) = 3575
+read(3, "", 8191)                       = 0
+brk(0x24ed000)                          = 0x24ed000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/pstrace.stp", {st_mode=S_IFREG|0644, st_size=773, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/pstrace.stp", O_RDONLY) = 3
+read(3, "/*\n * kernel pstrace tapset\n * C"..., 8191) = 773
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/rcu.stp", {st_mode=S_IFREG|0644, st_size=917, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/rcu.stp", O_RDONLY) = 3
+read(3, "// rcu tapset\n// Copyright (C) 2"..., 8191) = 917
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/rlimit.stp", {st_mode=S_IFREG|0644, st_size=1382, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/rlimit.stp", O_RDONLY) = 3
+read(3, "%{\n#include <linux/version.h>\n%}"..., 8191) = 1382
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/rpc.stp", {st_mode=S_IFREG|0644, st_size=38853, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/rpc.stp", O_RDONLY) = 3
+read(3, "// rpc tapset\n// Copyright (C) 2"..., 8191) = 8191
+read(3, "nt\").return !,\n\tmodule(\"sunrpc\")"..., 8191) = 8191
+read(3, "client is abandoned\n *  @procnam"..., 8191) = 8191
+read(3, " the request\n * @rq_prot:     th"..., 8191) = 8191
+read(3, "in the RPC call\n * @prog:       "..., 8191) = 6089
+brk(0x250f000)                          = 0x250f000
+read(3, "", 8191)                       = 0
+brk(0x2530000)                          = 0x2530000
+brk(0x2551000)                          = 0x2551000
+brk(0x2572000)                          = 0x2572000
+brk(0x2593000)                          = 0x2593000
+brk(0x25b4000)                          = 0x25b4000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/scheduler.stp", {st_mode=S_IFREG|0644, st_size=11597, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/scheduler.stp", O_RDONLY) = 3
+read(3, "// scheduler tapset\n// Copyright"..., 8191) = 8191
+read(3, "ler.migrate =\n\t__scheduler.migra"..., 8191) = 3406
+read(3, "", 8191)                       = 0
+brk(0x25d5000)                          = 0x25d5000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/scsi.stp", {st_mode=S_IFREG|0644, st_size=9687, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/scsi.stp", O_RDONLY) = 3
+read(3, "// scsi tapset\n// Copyright (C) "..., 8191) = 8191
+read(3, "\tfrom/to the device.\n * @data_di"..., 8191) = 1496
+read(3, "", 8191)                       = 0
+brk(0x25f6000)                          = 0x25f6000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/signal.stp", {st_mode=S_IFREG|0644, st_size=29029, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/signal.stp", O_RDONLY) = 3
+read(3, "// Signal tapset\n// Copyright (C"..., 8191) = 8191
+read(3, "task = $t\n    sinfo = $info\n    "..., 8191) = 8191
+read(3, "    if (! @defined($sig)) {\n\tsig"..., 8191) = 8191
+read(3, "..]\n// struct k_sigaction {\n//  "..., 8191) = 4456
+read(3, "", 8191)                       = 0
+brk(0x2617000)                          = 0x2617000
+brk(0x2638000)                          = 0x2638000
+brk(0x2659000)                          = 0x2659000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/socket.stp", {st_mode=S_IFREG|0644, st_size=34210, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/socket.stp", O_RDONLY) = 3
+read(3, "// Socket tapset\n// Copyright (C"..., 8191) = 8191
+read(3, "family value\n * @state:    Socke"..., 8191) = 8191
+read(3, "writev = kernel.function(\"sock_w"..., 8191) = 8191
+read(3, "OCK_ASYNC_WAITDATA, &flags))\n\t\ts"..., 8191) = 8191
+read(3, "filep = (struct file *)(long)(ST"..., 8191) = 1446
+brk(0x2681000)                          = 0x2681000
+read(3, "", 8191)                       = 0
+brk(0x26a2000)                          = 0x26a2000
+brk(0x26c3000)                          = 0x26c3000
+brk(0x26e4000)                          = 0x26e4000
+brk(0x2705000)                          = 0x2705000
+brk(0x2726000)                          = 0x2726000
+brk(0x2747000)                          = 0x2747000
+brk(0x2768000)                          = 0x2768000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/syscalls2.stp", {st_mode=S_IFREG|0644, st_size=161897, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/syscalls2.stp", O_RDONLY) = 3
+read(3, "// syscalls tapset part 2 [N-Z]\n"..., 8191) = 8191
+read(3, "\n# perf_event_open _____________"..., 8191) = 8191
+read(3, "$ufds, __uint32($nfds),\n\t\t\t _str"..., 8191) = 8191
+read(3, "$sigsetsize)\n}\nprobe syscall.pse"..., 8191) = 8191
+read(3, " __user * buf,\n#\t\t  int bufsiz)\n"..., 8191) = 8191
+read(3, "r(flags),\n\t\t\t _struct_compat_tim"..., 8191) = 8191
+read(3, "_________________\n#\n# asmlinkage"..., 8191) = 8191
+read(3, "\n\tkernel.function(\"sys_rt_sigsus"..., 8191) = 8191
+read(3, "aram(pid_t pid, struct sched_par"..., 8191) = 8191
+brk(0x279c000)                          = 0x279c000
+read(3, "r, 1))\n}\nprobe __syscall.compat_"..., 8191) = 8191
+read(3, "tcall\").call ?\n{\n\tif ($call != %"..., 8191) = 8191
+read(3, "nt, nstype)\nprobe syscall.setns "..., 8191) = 8191
+read(3, "________________________________"..., 8191) = 8191
+read(3, "t_syscall_gate(%{ __NR_compat_sh"..., 8191) = 8191
+read(3, "_user *, set)\n# COMPAT_SYSCALL_D"..., 8191) = 8191
+read(3, "r * filename, struct stat64 __us"..., 8191) = 8191
+read(3, "ion,\n#\t     unsigned long arg1,\n"..., 8191) = 8191
+brk(0x27dc000)                          = 0x27dc000
+read(3, "fd_settime().\n#\n# long sys_timer"..., 8191) = 8191
+read(3, "olduname\").call ?,\n             "..., 8191) = 8191
+read(3, "signed int flags)\n# long compat_"..., 8191) = 6268
+read(3, "", 8191)                       = 0
+brk(0x27fd000)                          = 0x27fd000
+brk(0x281e000)                          = 0x281e000
+brk(0x283f000)                          = 0x283f000
+brk(0x2860000)                          = 0x2860000
+brk(0x2881000)                          = 0x2881000
+brk(0x28a2000)                          = 0x28a2000
+brk(0x28c3000)                          = 0x28c3000
+brk(0x28e4000)                          = 0x28e4000
+brk(0x2905000)                          = 0x2905000
+brk(0x2926000)                          = 0x2926000
+brk(0x2947000)                          = 0x2947000
+brk(0x2968000)                          = 0x2968000
+brk(0x2989000)                          = 0x2989000
+brk(0x29aa000)                          = 0x29aa000
+brk(0x29cb000)                          = 0x29cb000
+brk(0x29ec000)                          = 0x29ec000
+brk(0x2a0d000)                          = 0x2a0d000
+brk(0x2a2e000)                          = 0x2a2e000
+brk(0x2a4f000)                          = 0x2a4f000
+brk(0x2a70000)                          = 0x2a70000
+brk(0x2a91000)                          = 0x2a91000
+brk(0x2ab2000)                          = 0x2ab2000
+brk(0x2ad3000)                          = 0x2ad3000
+brk(0x2af4000)                          = 0x2af4000
+brk(0x2b15000)                          = 0x2b15000
+brk(0x2b36000)                          = 0x2b36000
+brk(0x2b57000)                          = 0x2b57000
+brk(0x2b78000)                          = 0x2b78000
+brk(0x2b99000)                          = 0x2b99000
+brk(0x2bba000)                          = 0x2bba000
+brk(0x2bdb000)                          = 0x2bdb000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/syscalls_cfg_trunc.stp", {st_mode=S_IFREG|0644, st_size=111, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/syscalls_cfg_trunc.stp", O_RDONLY) = 3
+read(3, "\n# Default length for string tru"..., 8191) = 111
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/syscalls.stp", {st_mode=S_IFREG|0644, st_size=139273, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/syscalls.stp", O_RDONLY) = 3
+read(3, "// syscalls tapset part 1 [A-M]\n"..., 8191) = 8191
+read(3, "\", $data)\n\telse\n\t\tdata_str = spr"..., 8191) = 8191
+read(3, "me = \"clock_adjtime\"\n\tretstr = r"..., 8191) = 8191
+read(3, "mpat_gate(%{ __NR_close %}, %{ _"..., 8191) = 8191
+read(3, "________________________________"..., 8191) = 8191
+read(3, "advise64_64\").return ?\n{\n\t@__sys"..., 8191) = 8191
+read(3, "= __int32($cmd)\n\tcmd_str = _fcnt"..., 8191) = 8191
+read(3, "s __user * buf)\n# long compat_sy"..., 8191) = 8191
+read(3, "                   kernel.functi"..., 8191) = 8191
+brk(0x2c00000)                          = 0x2c00000
+read(3, "e = \"getppid\"\n\tretstr = return_s"..., 8191) = 8191
+read(3, "\tname = \"getsockopt\"\n\tlevel_str "..., 8191) = 8191
+read(3, " = __int32($cmd)\n\targp = @choose"..., 8191) = 8191
+read(3, "l.function(\"compat_sys_kexec_loa"..., 8191) = 8191
+read(3, "\toffset_low = $offset_low\n\tresul"..., 8191) = 8191
+read(3, ".migrate_pages.return ?,\n       "..., 8191) = 8191
+read(3, "n(\"sys_mprotect\").call ?\n{\n\tname"..., 8191) = 8191
+read(3, "rn ?\n{\n\t@__syscall_gate2(%{ __NR"..., 8191) = 8191
+brk(0x2c40000)                          = 0x2c40000
+read(3, " return_str(1, $return)\n}\n", 8191) = 26
+read(3, "", 8191)                       = 0
+brk(0x2c61000)                          = 0x2c61000
+brk(0x2c82000)                          = 0x2c82000
+brk(0x2ca3000)                          = 0x2ca3000
+brk(0x2cc4000)                          = 0x2cc4000
+brk(0x2ce5000)                          = 0x2ce5000
+brk(0x2d06000)                          = 0x2d06000
+brk(0x2d27000)                          = 0x2d27000
+brk(0x2d48000)                          = 0x2d48000
+brk(0x2d69000)                          = 0x2d69000
+brk(0x2d8a000)                          = 0x2d8a000
+brk(0x2dab000)                          = 0x2dab000
+brk(0x2dcc000)                          = 0x2dcc000
+brk(0x2ded000)                          = 0x2ded000
+brk(0x2e0e000)                          = 0x2e0e000
+brk(0x2e2f000)                          = 0x2e2f000
+brk(0x2e50000)                          = 0x2e50000
+brk(0x2e71000)                          = 0x2e71000
+brk(0x2e92000)                          = 0x2e92000
+brk(0x2eb3000)                          = 0x2eb3000
+brk(0x2ed4000)                          = 0x2ed4000
+brk(0x2ef5000)                          = 0x2ef5000
+brk(0x2f16000)                          = 0x2f16000
+brk(0x2f37000)                          = 0x2f37000
+brk(0x2f58000)                          = 0x2f58000
+brk(0x2f79000)                          = 0x2f79000
+brk(0x2f9a000)                          = 0x2f9a000
+brk(0x2fbb000)                          = 0x2fbb000
+brk(0x2fdc000)                          = 0x2fdc000
+brk(0x2ffd000)                          = 0x2ffd000
+brk(0x301e000)                          = 0x301e000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/target_set.stp", {st_mode=S_IFREG|0644, st_size=1756, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/target_set.stp", O_RDONLY) = 3
+read(3, "\nglobal _target_set # map: targe"..., 8191) = 1756
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/task_ancestry.stp", {st_mode=S_IFREG|0644, st_size=1608, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/task_ancestry.stp", O_RDONLY) = 3
+read(3, "// task information tapset\n// Co"..., 8191) = 1608
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/task.stp", {st_mode=S_IFREG|0644, st_size=19526, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/task.stp", O_RDONLY) = 3
+read(3, "// task information tapset\n// Co"..., 8191) = 8191
+read(3, "_MUNGED\n    struct user_namespac"..., 8191) = 8191
+read(3, "struct files_struct *f;\n#else\n  "..., 8191) = 3144
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/task_time.stp", {st_mode=S_IFREG|0644, st_size=7630, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/task_time.stp", O_RDONLY) = 3
+read(3, "// Task time query and utility f"..., 8191) = 7630
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/tcpmib-filter-default.stp", {st_mode=S_IFREG|0644, st_size=885, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/tcpmib-filter-default.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 885
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/tcpmib.stp", {st_mode=S_IFREG|0644, st_size=10533, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/tcpmib.stp", O_RDONLY) = 3
+read(3, "/*\n *      Copyright (C) 2009 IB"..., 8191) = 8191
+read(3, "y = (@defined($sk) ? tcpmib_filt"..., 8191) = 2342
+read(3, "", 8191)                       = 0
+brk(0x303f000)                          = 0x303f000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/tcp.stp", {st_mode=S_IFREG|0644, st_size=22509, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/tcp.stp", O_RDONLY) = 3
+read(3, "// TCP tapset\n// Copyright (C) 2"..., 8191) = 8191
+read(3, "__sockopt[%{/* pure */TCP_INFO%}"..., 8191) = 8191
+read(3, " */\nprobe tcp.recvmsg = kernel.f"..., 8191) = 6127
+brk(0x3064000)                          = 0x3064000
+read(3, "", 8191)                       = 0
+brk(0x3085000)                          = 0x3085000
+brk(0x30a6000)                          = 0x30a6000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/timestamp_gtod.stp", {st_mode=S_IFREG|0644, st_size=1629, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/timestamp_gtod.stp", O_RDONLY) = 3
+read(3, "// timestamp tapset -- gettimeof"..., 8191) = 1629
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/timestamp_monotonic.stp", {st_mode=S_IFREG|0644, st_size=5243, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/timestamp_monotonic.stp", O_RDONLY) = 3
+read(3, "// timestamp tapset -- monotonic"..., 8191) = 5243
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/timestamp.stp", {st_mode=S_IFREG|0644, st_size=1761, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/timestamp.stp", O_RDONLY) = 3
+read(3, "// timestamp tapset\n// Copyright"..., 8191) = 1761
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/tty.stp", {st_mode=S_IFREG|0644, st_size=7323, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/tty.stp", O_RDONLY) = 3
+read(3, "// tty tapset\n// Copyright (C) 2"..., 8191) = 7323
+read(3, "", 8191)                       = 0
+brk(0x30c7000)                          = 0x30c7000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/tzinfo.stp", {st_mode=S_IFREG|0644, st_size=803, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/tzinfo.stp", O_RDONLY) = 3
+read(3, "// timezone tapset\n// Copyright "..., 8191) = 803
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ucontext.stp", {st_mode=S_IFREG|0644, st_size=2231, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ucontext.stp", O_RDONLY) = 3
+read(3, "// User context tapset\n// Copyri"..., 8191) = 2231
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ucontext-symbols.stp", {st_mode=S_IFREG|0644, st_size=8826, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ucontext-symbols.stp", O_RDONLY) = 3
+read(3, "// User context symbols tapset\n/"..., 8191) = 8191
+read(3, " MAXSTRINGLEN, STAP_ARG_addr,\n  "..., 8191) = 635
+read(3, "", 8191)                       = 0
+brk(0x30e8000)                          = 0x30e8000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/ucontext-unwind.stp", {st_mode=S_IFREG|0644, st_size=3728, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/ucontext-unwind.stp", O_RDONLY) = 3
+read(3, "// User context unwind tapset\n//"..., 8191) = 3728
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/udp.stp", {st_mode=S_IFREG|0644, st_size=5864, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/udp.stp", O_RDONLY) = 3
+read(3, "// UDP tapset\n// Copyright (C) 2"..., 8191) = 5864
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/utrace.stp", {st_mode=S_IFREG|0644, st_size=1363, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/utrace.stp", O_RDONLY) = 3
+read(3, "/* utrace-only subset of registe"..., 8191) = 1363
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/linux/vfs.stp", {st_mode=S_IFREG|0644, st_size=27470, ...}) = 0
+open("/usr/share/systemtap/tapset/linux/vfs.stp", O_RDONLY) = 3
+read(3, "// vfs tapset\n// Copyright (C) 2"..., 8191) = 8191
+read(3, "error ? errno_str(error) : \"\"\n\n\t"..., 8191) = 8191
+read(3, "te\").return !,\n\t__vfs.__vfs_writ"..., 8191) = 8191
+brk(0x310f000)                          = 0x310f000
+read(3, " __page_ino($page)\n\t\tfrom = $pos"..., 8191) = 2897
+read(3, "", 8191)                       = 0
+brk(0x3130000)                          = 0x3130000
+brk(0x3151000)                          = 0x3151000
+brk(0x3172000)                          = 0x3172000
+brk(0x3193000)                          = 0x3193000
+brk(0x31b4000)                          = 0x31b4000
+brk(0x31d5000)                          = 0x31d5000
+close(3)                                = 0
+open("/usr/share/systemtap/tapset/4.4.0-34-generic/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4.0-34-generic", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4.0/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4.0", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/4.4", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/systemtap/tapset/x86_64", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+brk(0x31fb000)                          = 0x31fb000
+getdents(3, /* 3 entries */, 32768)     = 88
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/x86_64/registers.stp", {st_mode=S_IFREG|0644, st_size=7913, ...}) = 0
+open("/usr/share/systemtap/tapset/x86_64/registers.stp", O_RDONLY) = 3
+read(3, "%{\n/* Set to include regparm fie"..., 8191) = 7913
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+open("/usr/share/systemtap/tapset", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 43 entries */, 32768)    = 1456
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/ansi.stp", {st_mode=S_IFREG|0644, st_size=4022, ...}) = 0
+open("/usr/share/systemtap/tapset/ansi.stp", O_RDONLY) = 3
+read(3, "# ANSI escape sequences tapset\n#"..., 8191) = 4022
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/argv.stp", {st_mode=S_IFREG|0644, st_size=2593, ...}) = 0
+open("/usr/share/systemtap/tapset/argv.stp", O_RDONLY) = 3
+read(3, "// argument vector tapset\n// Cop"..., 8191) = 2593
+read(3, "", 8191)                       = 0
+open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+read(4, "# Locale name alias data base.\n#"..., 4096) = 2995
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US.utf8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en_US/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.UTF-8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en.utf8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale/en/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en_US/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en.utf8/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+open("/usr/share/locale-langpack/en/LC_MESSAGES/systemtap.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+brk(0x321c000)                          = 0x321c000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/context.stp", {st_mode=S_IFREG|0644, st_size=5068, ...}) = 0
+open("/usr/share/systemtap/tapset/context.stp", O_RDONLY) = 3
+read(3, "// context tapset\n// Copyright ("..., 8191) = 5068
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/errno.stp", {st_mode=S_IFREG|0644, st_size=8408, ...}) = 0
+open("/usr/share/systemtap/tapset/errno.stp", O_RDONLY) = 3
+read(3, "// errno tapset\n// Copyright (C)"..., 8191) = 8191
+read(3, "\tif (ret < 0 && errno_p(ret))\n\t\t"..., 8191) = 217
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/indent-default.stp", {st_mode=S_IFREG|0644, st_size=59, ...}) = 0
+open("/usr/share/systemtap/tapset/indent-default.stp", O_RDONLY) = 3
+read(3, "function __indent_timestamp() { "..., 8191) = 59
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/indent.stp", {st_mode=S_IFREG|0644, st_size=4551, ...}) = 0
+open("/usr/share/systemtap/tapset/indent.stp", O_RDONLY) = 3
+read(3, "/* <tapsetdescription>\n * The in"..., 8191) = 4551
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/init.stp", {st_mode=S_IFREG|0644, st_size=269, ...}) = 0
+open("/usr/share/systemtap/tapset/init.stp", O_RDONLY) = 3
+read(3, "\n// 'init' is a probe alias to r"..., 8191) = 269
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/java.stp", {st_mode=S_IFREG|0644, st_size=1333, ...}) = 0
+open("/usr/share/systemtap/tapset/java.stp", O_RDONLY) = 3
+read(3, "global java_backtrace_string\n\n/*"..., 8191) = 1333
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/libruby2.3-x86_64-linux-gnu.stp", {st_mode=S_IFREG|0644, st_size=8771, ...}) = 0
+open("/usr/share/systemtap/tapset/libruby2.3-x86_64-linux-gnu.stp", O_RDONLY) = 3
+read(3, "/* SystemTap tapset to make it e"..., 8191) = 8191
+read(3, " was required (string)\n */\nprobe"..., 8191) = 580
+read(3, "", 8191)                       = 0
+brk(0x323d000)                          = 0x323d000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/logging.stp", {st_mode=S_IFREG|0644, st_size=2850, ...}) = 0
+open("/usr/share/systemtap/tapset/logging.stp", O_RDONLY) = 3
+read(3, "// logging tapset\n// Copyright ("..., 8191) = 2850
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/null.stp", {st_mode=S_IFREG|0644, st_size=17, ...}) = 0
+open("/usr/share/systemtap/tapset/null.stp", O_RDONLY) = 3
+read(3, "\nglobal NULL = 0\n", 8191)    = 17
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/oneshot.stp", {st_mode=S_IFREG|0644, st_size=38, ...}) = 0
+open("/usr/share/systemtap/tapset/oneshot.stp", O_RDONLY) = 3
+read(3, "\nprobe oneshot += begin\n{\n  exit"..., 8191) = 38
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/pn.stp", {st_mode=S_IFREG|0644, st_size=1588, ...}) = 0
+open("/usr/share/systemtap/tapset/pn.stp", O_RDONLY) = 3
+read(3, "// probe-name tapset\n// Copyrigh"..., 8191) = 1588
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/queue_stats.stp", {st_mode=S_IFREG|0644, st_size=9435, ...}) = 0
+open("/usr/share/systemtap/tapset/queue_stats.stp", O_RDONLY) = 3
+read(3, "# qstats.stp: Queue statistics g"..., 8191) = 8191
+read(3, " synthesize queue work/service u"..., 8191) = 1244
+read(3, "", 8191)                       = 0
+brk(0x325e000)                          = 0x325e000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/random.stp", {st_mode=S_IFREG|0644, st_size=417, ...}) = 0
+open("/usr/share/systemtap/tapset/random.stp", O_RDONLY) = 3
+read(3, "/**\n * sfunction randint - Retur"..., 8191) = 417
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/registers.stp", {st_mode=S_IFREG|0644, st_size=7578, ...}) = 0
+open("/usr/share/systemtap/tapset/registers.stp", O_RDONLY) = 3
+read(3, "/* This is a stub tapset documen"..., 8191) = 7578
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/speculative.stp", {st_mode=S_IFREG|0644, st_size=1707, ...}) = 0
+open("/usr/share/systemtap/tapset/speculative.stp", O_RDONLY) = 3
+read(3, "// Speculative tapset\n// Copyrig"..., 8191) = 1707
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/stap_staticmarkers.stp", {st_mode=S_IFREG|0644, st_size=9670, ...}) = 0
+open("/usr/share/systemtap/tapset/stap_staticmarkers.stp", O_RDONLY) = 3
+read(3, "// stap/staprun/stapio static pr"..., 8191) = 8191
+read(3, "without the .ko extension)\n *\n *"..., 8191) = 1479
+read(3, "", 8191)                       = 0
+brk(0x327f000)                          = 0x327f000
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/stopwatch.stp", {st_mode=S_IFREG|0644, st_size=3051, ...}) = 0
+open("/usr/share/systemtap/tapset/stopwatch.stp", O_RDONLY) = 3
+read(3, "// stopwatch tapset\n// Copyright"..., 8191) = 3051
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/string.stp", {st_mode=S_IFREG|0644, st_size=5727, ...}) = 0
+open("/usr/share/systemtap/tapset/string.stp", O_RDONLY) = 3
+read(3, "// Standard string functions tap"..., 8191) = 5727
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/switchfile.stp", {st_mode=S_IFREG|0644, st_size=612, ...}) = 0
+open("/usr/share/systemtap/tapset/switchfile.stp", O_RDONLY) = 3
+read(3, "// File switching tapset\n// Copy"..., 8191) = 612
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/system.stp", {st_mode=S_IFREG|0644, st_size=473, ...}) = 0
+open("/usr/share/systemtap/tapset/system.stp", O_RDONLY) = 3
+read(3, "/** \n * sfunction system - Issue"..., 8191) = 473
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/timers.stp", {st_mode=S_IFREG|0644, st_size=822, ...}) = 0
+open("/usr/share/systemtap/tapset/timers.stp", O_RDONLY) = 3
+read(3, "// timers tapset\n// \n// Copyrigh"..., 8191) = 822
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/tokenize.stp", {st_mode=S_IFREG|0644, st_size=1667, ...}) = 0
+open("/usr/share/systemtap/tapset/tokenize.stp", O_RDONLY) = 3
+read(3, "// Tokenize tapset\n// Copyright "..., 8191) = 1667
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/tzinfo.stp", {st_mode=S_IFREG|0644, st_size=930, ...}) = 0
+open("/usr/share/systemtap/tapset/tzinfo.stp", O_RDONLY) = 3
+read(3, "// timezone tapset\n// Copyright "..., 8191) = 930
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+stat("/usr/share/systemtap/tapset/uconversions.stp", {st_mode=S_IFREG|0644, st_size=24058, ...}) = 0
+open("/usr/share/systemtap/tapset/uconversions.stp", O_RDONLY) = 3
+read(3, "// userspace conversions tapset\n"..., 8191) = 8191
+read(3, "n the\n * returned string. Note t"..., 8191) = 8191
+read(3, "gned short from\n *\n * Descriptio"..., 8191) = 7676
+brk(0x32a4000)                          = 0x32a4000
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+open("whotouchmyfile.stp", O_RDONLY)    = 3
+read(3, "#!/usr/bin/env stap\n#\n# monitor "..., 8191) = 233
+read(3, "", 8191)                       = 0
+close(3)                                = 0
+times({tms_utime=16, tms_stime=3, tms_cutime=0, tms_cstime=0}) = 1718859038
+times({tms_utime=16, tms_stime=3, tms_cutime=0, tms_cstime=0}) = 1718859038
+brk(0x32c5000)                          = 0x32c5000
+brk(0x32e6000)                          = 0x32e6000
+brk(0x3307000)                          = 0x3307000
+brk(0x3328000)                          = 0x3328000
+brk(0x3349000)                          = 0x3349000
+brk(0x336a000)                          = 0x336a000
+futex(0x7f0569520680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+write(2, "\33[01;31m\33[Ksemantic error:\33[m\33[K"..., 221) = 221
+write(2, "\33[01;31m\33[Ksemantic error:\33[m\33[K"..., 250) = 250
+times({tms_utime=16, tms_stime=3, tms_cutime=0, tms_cstime=0}) = 1718859038
+write(2, "Pass 2: analysis failed.  [man e"..., 44) = 44
+write(2, "\n", 1)                       = 1
+write(2, "Tip: /usr/share/doc/systemtap/RE"..., 72) = 72
+write(2, "\n", 1)                       = 1
+rt_sigprocmask(SIG_BLOCK, [HUP INT PIPE TERM], [], 8) = 0
+clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f056b49cb90) = 1532
+rt_sigprocmask(SIG_BLOCK, [HUP INT PIPE TERM], [HUP INT PIPE TERM], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [HUP INT PIPE TERM], NULL, 8) = 0
+wait4(1532, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 1532
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=1532, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+rt_sigprocmask(SIG_BLOCK, [HUP INT PIPE TERM], [HUP INT PIPE TERM], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [HUP INT PIPE TERM], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+exit_group(1)                           = ?
++++ exited with 1 +++

@@ -1,0 +1,14 @@
+##
+#http://blog.csdn.net/justlinux2010/article/details/11392959
+
+probe process("xm").statement("func"){
+    printf("func1:%s\n",$$vars);
+    printf("func1:edi=%d\n",register("edi"));
+    printf("--------------------------\n\n");
+}
+
+probe process("xm").statement("func2"){
+    printf("func2:%s\n",$$vars);
+    printf("func2: edi =%d\n",register("edi"))
+}
+

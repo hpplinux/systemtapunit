@@ -1,0 +1,9 @@
+#!/usr/bin/env stap
+#
+# monitor who is messing my file of secrets
+#
+#probe generic.fop.open {
+probe vfs.write {
+        if(filename == "abcd.txt")
+                printf("%s is writing my file: %s\n", execname(), filename)
+}

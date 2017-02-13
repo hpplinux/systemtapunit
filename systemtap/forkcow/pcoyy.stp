@@ -1,0 +1,17 @@
+# http://blog.chinaunix.net/uid-24774106-id-3361500.html
+
+probe kernel.function("*@kernel/fork.c"){
+	if(pid()==target()){
+	    printf("PID(%d),execname(%s) probe :(%s\n)",pid(),execname(),pp());	
+	}
+
+}
+
+
+probe timer.s(60){
+    exit();
+}
+
+
+
+

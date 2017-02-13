@@ -1,0 +1,18 @@
+#
+#http://m.udpwork.com/item/9439.html
+#
+#stap inodewatch.stp major minor ino
+#
+#
+
+probe vfs.write,vfs.read{
+#if(dev==MKDEV($1,$2))
+	if(dev==MKDEV($1,$2)&&ino==$3)
+		printf("%s(%d) %s 0x%x/%u\n",execname(),pid(),probefunc(),dev,ino)
+}
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+#
+#http://www.lenky.info/archives/2013/02/2202
+probe process("./test").function("*"){
+	printf("%s(%s)\n",probefunc(),$$parms);
+}

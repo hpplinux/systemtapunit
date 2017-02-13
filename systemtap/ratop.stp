@@ -1,0 +1,79 @@
+#http://blog.yufeng.info/archives/1347
+#
+
+#!/usr/bin/stap -DMAXMAPENTRIES=10240 -DMAXACTION=9999
+ 
+global total, skip
+global req, to_read, actual
+global __inode_filename
+ 
+//generic_file_aio_read path
+probe kernel.function("page_cache_readahead") {
+ino = __file_ino($filp)
+req[ino] += $req_size;
+total++;
+if($ra->flags & 0x2) skip++;
+}
+ 
+//mmap path
+probe kernel.function("do_page_cache_readahead") {
+ino = __file_ino($filp)
+req[ino]+=$nr_to_read;
+}
+ 
+//
+probe kernel.function("__do_page_cache_readahead").return {
+ino = __file_ino($filp)
+to_read[ino] += $nr_to_read;
+if($return>0) actual[ino] += $return;
+}
+ 
+probe timer.ms(5000) {
+if(total) {
+foreach( ino in req-) {
+        s0+= req[ino];
+        s1+= to_read[ino]
+        s2+= actual[ino];
+}
+printf("\n%25s,  %5s%6d, %5s%6d, %5s%8d, %5s%8d, %5s%8d\n\n",
+        ctime(gettimeofday_s()),
+        "TOTAL:", total,
+        "SKIP:", skip,
+        "REQ:",s0,
+        "TO_RD:",s1,
+        "NR_RD:",s2
+        )
+ 
+    /* print header */
+    printf("%25s %8s %8s %8s\n",
+           "FILENAME","REQ","TO_RD","NR_RD")
+ 
+    foreach( ino in req- limit 20)
+        printf("%25s %8d %8d %8d\n", find_filename(ino), req[ino], to_read[ino], actual[ino]);
+ 
+ 
+}
+ 
+delete total;
+delete skip;
+delete req;
+delete to_read;
+delete actual;
+}
+ 
+probe generic.fop.open {
+__inode_filename[ino]= filename
+}
+ 
+function find_filename(ino) {
+return __inode_filename[ino]==""?sprint(ino):__inode_filename[ino];
+}
+ 
+probe timer.s(180) {
+delete __inode_filename
+}
+ 
+probe begin {
+println("::");
+}
+
